@@ -1,0 +1,38 @@
+
+
+<apex:page id="recordSetVar1"
+           standardController="Account">
+<!--           recordSetVar="var1">-->
+
+    <apex:form>
+
+
+        <apex:pageBlock title="">
+
+<!--&lt;!&ndash;            <apex:pageBlockTable value="{!var1}" var="v1">&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;                <apex:column value="{!v1.Name}" title="telefon" />&ndash;&gt;-->
+<!--&lt;!&ndash;                <apex:column value="{!v1.Phone}" />&ndash;&gt;-->
+<!--&lt;!&ndash;                <apex:column value="{!v1.Id}" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </apex:pageBlockTable>&ndash;&gt;-->
+
+            <apex:pageBlockSection title="">
+
+                <apex:inputText value="{!Account.Phone}" />
+                <apex:inputText value="{!Account.Phone}" />
+
+
+            </apex:pageBlockSection>
+
+        </apex:pageBlock>
+
+        <apex:selectList label="label" value="{!acc}">
+
+        </apex:selectList>
+
+    </apex:form>
+
+</apex:page>
+

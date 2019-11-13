@@ -1,0 +1,22 @@
+<!--
+ - Created by mparzych004 on 04.10.2019.
+ -->
+
+<apex:page id="Vf232">
+    <apex:form>
+
+        <apex:pageBlock title="abc">
+
+            <apex:pageBlockSection >
+
+
+            </apex:pageBlockSection>
+
+            <apex:pageBlockButtons  title="buttons">
+
+                <apex:commandButton value="xxx" title="bcd"/>
+            </apex:pageBlockButtons>
+
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

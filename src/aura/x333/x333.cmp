@@ -1,0 +1,16 @@
+<!--
+ - Created by mparzych004 on 22.10.2019.
+ -->
+
+<aura:component description="x333" implements="force:appHostable">
+    <p>abc</p>
+    <div aura:id="changeButtons">
+    <lightning:button label="button1" onclick="{!c.alertFunction}"/>
+    </div>
+
+
+    <c:richText></c:richText>
+
+
+
+</aura:component>

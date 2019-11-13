@@ -1,0 +1,35 @@
+<aura:component description="card4">
+
+
+    <lightning:button label="show card" onclick="{!c.hideOrShow}"/>
+
+    <aura:attribute type="Boolean" name="at1" default="true"/>
+
+    <aura:if isTrue="{!v.at1}">
+        <lightning:card title="card" iconName="Opportunity" footer="footer">
+            <p>abc1</p>
+            <p>abc2</p>
+
+            <force:recordData aura:id="accountRecord"
+                              recordId="{!v.recordId}"
+                              targetFields="{!v.Account}"
+                              layoutType="FULL"
+            />
+            <lightning:button label="show alert" onclick="{!c.showAlert}"/>
+        </lightning:card>
+
+
+
+        <aura:set attribute="else">
+
+            <p>content hidden</p>
+        </aura:set>
+    </aura:if>
+
+    <!--    <aura:if isTrue="">-->
+
+    <!--        <p>aaaaaaaaadddddddddd</p>-->
+    <!--    </aura:if>-->
+
+
+</aura:component>

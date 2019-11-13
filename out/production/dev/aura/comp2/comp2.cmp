@@ -1,0 +1,8 @@
+<!--
+ - Created by mparzych004 on 11.10.2019.
+ -->
+<aura:component access="GLOBAL">
+    {!$Label.c}<br/>
+<!--    {!$Label.c.MyLabel2}<br/>-->
+<!--    {!$Label.c.MyLabel3}<br/>-->
+</aura:component>

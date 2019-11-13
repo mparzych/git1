@@ -1,0 +1,55 @@
+
+
+<aura:component description="x45C" implements="force:appHostable" controller="AuraController1">
+    <p>abc</p>
+
+
+    <lightning:accordionSection label="accordion Section" >
+
+        <lightning:accordion title="accordion">
+        </lightning:accordion>
+    </lightning:accordionSection>
+
+    <lightning:button label="button 1" onclick="{!c.alertFunction}"/>
+    <lightning:button label="button 2" onclick="{!c.setSecondFunction}"/>
+    <lightning:button label="button 3" onclick="{!c.thirdFunction}"/>
+    <lightning:button label="button 4" onclick="{!c.setStrings}"/>
+    <lightning:button label="button 5" onclick="{!c.setContacts}"/>
+
+    <aura:attribute type="String[]" name="strings" description="list of strings"/>
+
+    <aura:attribute description="desc" name="at1" type="Integer"/>
+
+    <aura:attribute description="desc2" name="at2" type="String"/>
+
+    <aura:attribute description="desc 3" name="at3" type="Integer"/>
+
+    <aura:attribute name="contacts" description="contacts desc" type="Contact[]"/>
+
+
+
+    <p>ccc: {!v.at1}</p>
+    <p>ccc2: {!v.at2}</p>
+    <p>ccc3: {!v.at3}</p>
+
+    <lightning:card  title="card" iconName="standard:opportunity">
+
+        <p>abc</p>
+        <p>abc 1</p>
+        <p>abc 2 {!v.at3}</p>
+    </lightning:card>
+
+
+
+
+
+
+    <ul>
+
+        <aura:iteration var="var" items="{!v.strings}">
+
+            <p>{!var}</p>
+        </aura:iteration>
+    </ul>
+
+</aura:component>

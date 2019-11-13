@@ -1,0 +1,7 @@
+
+
+<aura:component description="x6" implements="force:appHostable">
+
+    <c:contactList2></c:contactList2>
+
+</aura:component>

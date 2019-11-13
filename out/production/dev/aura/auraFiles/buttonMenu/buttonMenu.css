@@ -1,0 +1,19 @@
+/**
+ * Created by mparzych004 on 07.10.2019.
+ */
+
+*.THIS {
+    background-color: brown;
+    color: yellow;
+}
+.THIS {
+    background-color: brown;
+    color: black;
+}
+#id1.THIS {
+    position: absolute;
+    border: 4px solid blue;
+    top: 0%;
+    left: 90%;
+
+}

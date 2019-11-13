@@ -1,0 +1,9 @@
+
+
+<aura:component description="QuickContacts" implements="force:appHostable">
+
+
+    <c:SearchBar/>
+    <c:ContactList/>
+
+</aura:component>

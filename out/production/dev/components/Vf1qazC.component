@@ -1,0 +1,25 @@
+<!--
+ - Created by mparzych004 on 22.10.2019.
+ -->
+
+<apex:component id="Vf1qazC">
+    <apex:attribute name="at1" description="desc 1" type="Boolean"/>
+
+
+    <apex:form>
+
+        <apex:pageBlock >
+
+
+            <apex:pageBlockSection >
+
+
+
+                <apex:commandButton value="button1" />
+
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+
+
+</apex:component>

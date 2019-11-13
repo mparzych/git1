@@ -1,0 +1,11 @@
+<!--
+ - Created by mparzych004 on 22.10.2019.
+ -->
+
+<apex:page id="Vf1qaz">
+
+    <p>abcd</p>
+
+    <c:Vf1qazC></c:Vf1qazC>
+
+</apex:page>

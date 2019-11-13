@@ -1,0 +1,14 @@
+<!--
+ - Created by mparzych004 on 15.10.2019.
+ -->
+
+<aura:component description="card1">
+    <lightning:card title="Naglowek" iconName="standard:opportunity" footer="footer">
+        <lightning:button label="button1"/>
+        <p>- abc1</p>
+        <p>- abc2</p>
+        <p>- abc3</p>
+        <p>- abc4</p>
+
+    </lightning:card>
+</aura:component>

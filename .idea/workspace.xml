@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91faabdd-a6ed-4a0a-8671-e1a18d8c3b8c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Apex Exception Class" />
+        <option value="Lightning Documentation" />
+        <option value="Lightning Renderer" />
+        <option value="Lightning Design" />
+        <option value="Apex Unit Test Class" />
+        <option value="Lightning Helper" />
+        <option value="Lightning Style" />
+        <option value="Lightning Application Event" />
+        <option value="Lightning Component Event" />
+        <option value="HTML File" />
+        <option value="Apex Trigger" />
+        <option value="Lightning Application" />
+        <option value="Lightning Controller" />
+        <option value="Lightning Web Component HTML" />
+        <option value="Lightning Web Component JavaScript" />
+        <option value="Apex Interface" />
+        <option value="Visualforce Component" />
+        <option value="Visualforce Page" />
+        <option value="Apex Class" />
+        <option value="Lightning Component" />
+        <option value="Apex Metadata" />
+      </list>
+    </option>
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="moduleWorkspaceSettings">
+      <map>
+        <entry key="dev">
+          <value>
+            <ModuleWorkspaceSettings>
+              <option name="moduleContentsLastModified" value="1573563672209" />
+            </ModuleWorkspaceSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="documentText" value="ApQ a = new ApQ();&#10;a.m();" />
+            <option name="splitterProportion" value="0.35486892" />
+          </AnonymousApexSettings>
+        </option>
+        <option name="connectionWorkspaceSettings">
+          <map>
+            <entry key="dev">
+              <value>
+                <ConnectionWorkspaceSettings>
+                  <option name="buildSuccessDatesBySourceRootRelativePath">
+                    <map>
+                      <entry key="APEXCLASS:A" value="1569573188000" />
+                      <entry key="APEXCLASS:A11" value="1573045471000" />
+                      <entry key="APEXCLASS:AA1" value="1570181192000" />
+                      <entry key="APEXCLASS:ABC" value="1570096876521" />
+                      <entry key="APEXCLASS:ABCTEST" value="1570104405762" />
+                      <entry key="APEXCLASS:ACCCONTROLLER" value="1570445796457" />
+                      <entry key="APEXCLASS:ACCOUNTCONTROLLER" value="1570445702747" />
+                      <entry key="APEXCLASS:ACCOUNTREMOTER" value="1572442633796" />
+                      <entry key="APEXCLASS:ADDMULTIPLEACCOUNTSCONTROLLER" value="1572014182304" />
+                      <entry key="APEXCLASS:AP" value="1569576435236" />
+                      <entry key="APEXCLASS:AP1" value="1572962167227" />
+                      <entry key="APEXCLASS:AP11" value="1571749675898" />
+                      <entry key="APEXCLASS:AP12" value="1571221028897" />
+                      <entry key="APEXCLASS:AP1234" value="1572001159767" />
+                      <entry key="APEXCLASS:AP1X" value="1572434748861" />
+                      <entry key="APEXCLASS:AP2" value="1571824218509" />
+                      <entry key="APEXCLASS:AP22" value="1571914426589" />
+                      <entry key="APEXCLASS:AP3" value="1571832723214" />
+                      <entry key="APEXCLASS:AP345" value="1572013741021" />
+                      <entry key="APEXCLASS:AP5" value="1572534640169" />
+                      <entry key="APEXCLASS:APCL1" value="1570196318343" />
+                      <entry key="APEXCLASS:APCL1X" value="1570001746317" />
+                      <entry key="APEXCLASS:APCL2" value="1570002066698" />
+                      <entry key="APEXCLASS:APCONTROLLER" value="1571644084000" />
+                      <entry key="APEXCLASS:APDATABASEEXAMPLE" value="1572261173323" />
+                      <entry key="APEXCLASS:APEXCLASSVF" value="1571310993807" />
+                      <entry key="APEXCLASS:APEXCONT" value="1569841037217" />
+                      <entry key="APEXCLASS:APEXCONTROLLER2" value="1572252017482" />
+                      <entry key="APEXCLASS:APEXDML" value="1570026754717" />
+                      <entry key="APEXCLASS:APEXPAGECLASS" value="1572002028788" />
+                      <entry key="APEXCLASS:APEXPAGESCLASS" value="1572004701535" />
+                      <entry key="APEXCLASS:APQ" value="1573561662111" />
+                      <entry key="APEXCLASS:AURACONTROLLER1" value="1571924609920" />
+                      <entry key="APEXCLASS:AVC" value="1570628755949" />
+                      <entry key="APEXCLASS:AX2" value="1572874472592" />
+                      <entry key="APEXCLASS:AXC" value="1572262579000" />
+                      <entry key="APEXCLASS:AXCEXCEPTION" value="1572262596294" />
+                      <entry key="APEXCLASS:AZX" value="1570191123806" />
+                      <entry key="APEXCLASS:B" value="1569830928692" />
+                      <entry key="APEXCLASS:B1" value="1573046262429" />
+                      <entry key="APEXCLASS:BATCH1" value="1571641929217" />
+                      <entry key="APEXCLASS:BATCH11" value="1571989013377" />
+                      <entry key="APEXCLASS:BATCH123" value="1572877132832" />
+                      <entry key="APEXCLASS:BATCH2" value="1571405089998" />
+                      <entry key="APEXCLASS:BATCH22" value="1572276735530" />
+                      <entry key="APEXCLASS:BATCH3" value="1571406827592" />
+                      <entry key="APEXCLASS:BATCH4" value="1571407929363" />
+                      <entry key="APEXCLASS:BATCH5" value="1571818649903" />
+                      <entry key="APEXCLASS:BATCHEXAMPLE" value="1571404708442" />
+                      <entry key="APEXCLASS:BT" value="1571748943009" />
+                      <entry key="APEXCLASS:BT2TEST" value="1571749654292" />
+                      <entry key="APEXCLASS:BT4" value="1571830520188" />
+                      <entry key="APEXCLASS:BTTEST" value="1571749243037" />
+                      <entry key="APEXCLASS:BTTEST1" value="1571749237000" />
+                      <entry key="APEXCLASS:CHARTCONTROLLER" value="1572442303010" />
+                      <entry key="APEXCLASS:CONTACTCONTROLLER" value="1570022967077" />
+                      <entry key="APEXCLASS:CONTACTLISTCONTROLLER" value="1572271294194" />
+                      <entry key="APEXCLASS:CONTACTSLISTCONTROLLER" value="1572007458584" />
+                      <entry key="APEXCLASS:CONTROLLERCLASS" value="1572010922800" />
+                      <entry key="APEXCLASS:CUSTOMCONTROLLER" value="1571302484133" />
+                      <entry key="APEXCLASS:CVV" value="1570794741000" />
+                      <entry key="APEXCLASS:DC" value="1570194944000" />
+                      <entry key="APEXCLASS:EX2" value="1570794155259" />
+                      <entry key="APEXCLASS:EX2TEST" value="1570794646820" />
+                      <entry key="APEXCLASS:EXAMPLECON" value="1571313951699" />
+                      <entry key="APEXCLASS:EXECUTEBATCH" value="1572276679143" />
+                      <entry key="APEXCLASS:EXECUTEBATCH1" value="1571989112000" />
+                      <entry key="APEXCLASS:EXECUTEQUEUEABLE" value="1572439909922" />
+                      <entry key="APEXCLASS:EXECUTESCHEDULE" value="1571815650392" />
+                      <entry key="APEXCLASS:EXPENSESCONTROLLER" value="1570444438665" />
+                      <entry key="APEXCLASS:EXTENSIONTOVFEXTENSION" value="1573562058209" />
+                      <entry key="APEXCLASS:GETCONTACTS" value="1571994228329" />
+                      <entry key="APEXCLASS:HANDLERCLASS" value="1572963011132" />
+                      <entry key="APEXCLASS:HELLOWORLDAPEXMETHOD" value="1570789737984" />
+                      <entry key="APEXCLASS:HELPERCLASS" value="1572962932013" />
+                      <entry key="APEXCLASS:I1" value="1569849853369" />
+                      <entry key="APEXCLASS:INTER1" value="1573560031000" />
+                      <entry key="APEXCLASS:INTERF" value="1571832695142" />
+                      <entry key="APEXCLASS:INVOKEFROMPB" value="1571903823573" />
+                      <entry key="APEXCLASS:INVOKEPB1" value="1572428013758" />
+                      <entry key="APEXCLASS:KLAS1" value="1572508453281" />
+                      <entry key="APEXCLASS:KLAS12" value="1572942571411" />
+                      <entry key="APEXCLASS:KLAS1TEST" value="1572967332333" />
+                      <entry key="APEXCLASS:LIGHTCONTROLLER" value="1570789527494" />
+                      <entry key="APEXCLASS:LIMITS" value="1570009607140" />
+                      <entry key="APEXCLASS:LL" value="1572443985449" />
+                      <entry key="APEXCLASS:LLNODE" value="1569833729552" />
+                      <entry key="APEXCLASS:MAIN" value="1569855383748" />
+                      <entry key="APEXCLASS:MAIN2" value="1570715368511" />
+                      <entry key="APEXCLASS:MATHS" value="1572943167000" />
+                      <entry key="APEXCLASS:MATHS1" value="1572943164876" />
+                      <entry key="APEXCLASS:MATHSTEST" value="1572943333381" />
+                      <entry key="APEXCLASS:MATR" value="1570021586579" />
+                      <entry key="APEXCLASS:MYBATCHCLASS" value="1569574179000" />
+                      <entry key="APEXCLASS:MYCONTACTLISTCONTROLLER" value="1571212257942" />
+                      <entry key="APEXCLASS:MYEXTENSION" value="1572939715789" />
+                      <entry key="APEXCLASS:MYPROPERTYCONTROLLER" value="1570715240114" />
+                      <entry key="APEXCLASS:NEWOPPORTUNITYCONTROLLER" value="1572262046000" />
+                      <entry key="APEXCLASS:NODE" value="1569833533297" />
+                      <entry key="APEXCLASS:NODETEST" value="1570193414000" />
+                      <entry key="APEXCLASS:Q" value="1570019723000" />
+                      <entry key="APEXCLASS:Q1" value="1572513112590" />
+                      <entry key="APEXCLASS:Q2" value="1573197741395" />
+                      <entry key="APEXCLASS:QUEUE" value="1571830682778" />
+                      <entry key="APEXCLASS:QUEUE1" value="1571830748256" />
+                      <entry key="APEXCLASS:QUEUEEX" value="1572434695686" />
+                      <entry key="APEXCLASS:QUEUENODE" value="1571830793116" />
+                      <entry key="APEXCLASS:SAMPLECON" value="1572261363938" />
+                      <entry key="APEXCLASS:SCHED" value="1570192353431" />
+                      <entry key="APEXCLASS:SCHEDUL" value="1571821198797" />
+                      <entry key="APEXCLASS:SCHEDUL2" value="1571903067118" />
+                      <entry key="APEXCLASS:SCHEDUL22" value="1571989100008" />
+                      <entry key="APEXCLASS:SCHEDUL223" value="1572515189923" />
+                      <entry key="APEXCLASS:SCHEDUL2234" value="1572449087334" />
+                      <entry key="APEXCLASS:SCHEDULE45" value="1572881101461" />
+                      <entry key="APEXCLASS:SCHEDULINVOKE" value="1571903201994" />
+                      <entry key="APEXCLASS:STACK" value="1570192821091" />
+                      <entry key="APEXCLASS:STACKTEST" value="1571908376631" />
+                      <entry key="APEXCLASS:STC" value="1570092426775" />
+                      <entry key="APEXCLASS:STRINGS" value="1571389336240" />
+                      <entry key="APEXCLASS:SUBCLASS" value="1571833326089" />
+                      <entry key="APEXCLASS:SUPERCLASS" value="1571833322621" />
+                      <entry key="APEXCLASS:T" value="1569575771130" />
+                      <entry key="APEXCLASS:TESTNODE" value="1570193607949" />
+                      <entry key="APEXCLASS:TREE11" value="1571748546000" />
+                      <entry key="APEXCLASS:TRIGG2" value="1572962272000" />
+                      <entry key="APEXCLASS:TRIGGTEST1" value="1573056316420" />
+                      <entry key="APEXCLASS:V" value="1571062849708" />
+                      <entry key="APEXCLASS:VFCONTROLLER" value="1571644142273" />
+                      <entry key="APEXCLASS:VFCONTROLLER1" value="1572006667581" />
+                      <entry key="APEXCLASS:VFCONTROLLER23" value="1572013797461" />
+                      <entry key="APEXCLASS:VFPAGE22" value="1570002924000" />
+                      <entry key="APEXCLASS:XXX" value="1571643746671" />
+                      <entry key="APEXCOMPONENT:FVEXTENSION1" value="1573561913000" />
+                      <entry key="APEXCOMPONENT:LIGHTNINGTAB" value="1573130019000" />
+                      <entry key="APEXCOMPONENT:V1FXC" value="1571230999384" />
+                      <entry key="APEXCOMPONENT:VCB" value="1569596283316" />
+                      <entry key="APEXCOMPONENT:VCOMP1" value="1569592897574" />
+                      <entry key="APEXCOMPONENT:VF102" value="1571298872699" />
+                      <entry key="APEXCOMPONENT:VF11C" value="1571141234385" />
+                      <entry key="APEXCOMPONENT:VF134C" value="1571402292612" />
+                      <entry key="APEXCOMPONENT:VF1QAZC" value="1571748428328" />
+                      <entry key="APEXCOMPONENT:VF789C" value="1572006639706" />
+                      <entry key="APEXCOMPONENT:VF89C" value="1572008951344" />
+                      <entry key="APEXCOMPONENT:VF99C" value="1571296372416" />
+                      <entry key="APEXCOMPONENT:VFC2" value="1569592295479" />
+                      <entry key="APEXCOMPONENT:VFCOMP" value="1569591408063" />
+                      <entry key="APEXCOMPONENT:VFFC" value="1569852374895" />
+                      <entry key="APEXPAGE:ADDINGMULTIPLEROWS" value="1572014088000" />
+                      <entry key="APEXPAGE:ADDINGMULTIPLEROWS1" value="1572014266763" />
+                      <entry key="APEXPAGE:ALLACCOUNTSSAVED" value="1572014154000" />
+                      <entry key="APEXPAGE:APEXCLASSVF1" value="1571311166397" />
+                      <entry key="APEXPAGE:CONTACTSLISTCONTROLLER" value="1572007528861" />
+                      <entry key="APEXPAGE:FILTEREXAMPLE" value="1571656084535" />
+                      <entry key="APEXPAGE:OPPTYSTEP1" value="1572262068000" />
+                      <entry key="APEXPAGE:OPPTYSTEP2" value="1572262127000" />
+                      <entry key="APEXPAGE:OPPTYSTEP3" value="1572262159000" />
+                      <entry key="APEXPAGE:PAGINATIONEXAMPLE" value="1572009849797" />
+                      <entry key="APEXPAGE:RECORDSETVAR1" value="1572251896734" />
+                      <entry key="APEXPAGE:STANDARDLISTCONTROLLER" value="1571310366430" />
+                      <entry key="APEXPAGE:VB" value="1570521174317" />
+                      <entry key="APEXPAGE:VF" value="1571234284366" />
+                      <entry key="APEXPAGE:VF1" value="1573215742000" />
+                      <entry key="APEXPAGE:VF100" value="1571297828084" />
+                      <entry key="APEXPAGE:VF101" value="1571297934000" />
+                      <entry key="APEXPAGE:VF11" value="1571141221675" />
+                      <entry key="APEXPAGE:VF111" value="1571999842000" />
+                      <entry key="APEXPAGE:VF1111" value="1572529644847" />
+                      <entry key="APEXPAGE:VF112" value="1571310380000" />
+                      <entry key="APEXPAGE:VF123" value="1571397027475" />
+                      <entry key="APEXPAGE:VF1234" value="1571650313619" />
+                      <entry key="APEXPAGE:VF124" value="1571396530403" />
+                      <entry key="APEXPAGE:VF1QAZ" value="1571748437045" />
+                      <entry key="APEXPAGE:VF1X" value="1571229862193" />
+                      <entry key="APEXPAGE:VF2" value="1570012265461" />
+                      <entry key="APEXPAGE:VF2112" value="1569588615620" />
+                      <entry key="APEXPAGE:VF22" value="1570002959121" />
+                      <entry key="APEXPAGE:VF23" value="1570013509479" />
+                      <entry key="APEXPAGE:VF232" value="1570189085556" />
+                      <entry key="APEXPAGE:VF236" value="1571660113459" />
+                      <entry key="APEXPAGE:VF3" value="1569582911693" />
+                      <entry key="APEXPAGE:VF321" value="1570087617537" />
+                      <entry key="APEXPAGE:VF332" value="1570027603848" />
+                      <entry key="APEXPAGE:VF334" value="1570099798205" />
+                      <entry key="APEXPAGE:VF345" value="1572012293814" />
+                      <entry key="APEXPAGE:VF444" value="1571650932407" />
+                      <entry key="APEXPAGE:VF456" value="1572441915000" />
+                      <entry key="APEXPAGE:VF5" value="1569592161072" />
+                      <entry key="APEXPAGE:VF55" value="1570775939232" />
+                      <entry key="APEXPAGE:VF555" value="1573217255795" />
+                      <entry key="APEXPAGE:VF556" value="1573215938000" />
+                      <entry key="APEXPAGE:VF66" value="1569583965438" />
+                      <entry key="APEXPAGE:VF723" value="1571655716087" />
+                      <entry key="APEXPAGE:VF789" value="1572006558815" />
+                      <entry key="APEXPAGE:VF89" value="1572008918399" />
+                      <entry key="APEXPAGE:VF89SECOND" value="1572009243092" />
+                      <entry key="APEXPAGE:VF912" value="1572012869826" />
+                      <entry key="APEXPAGE:VF923" value="1572443210157" />
+                      <entry key="APEXPAGE:VF989" value="1572442133335" />
+                      <entry key="APEXPAGE:VF99" value="1571402265274" />
+                      <entry key="APEXPAGE:VF998" value="1572012560199" />
+                      <entry key="APEXPAGE:VF9991" value="1571653392906" />
+                      <entry key="APEXPAGE:VFCONTROLLER23" value="1572007649000" />
+                      <entry key="APEXPAGE:VFEXTENSION1" value="1573562006994" />
+                      <entry key="APEXPAGE:VFF" value="1569852453946" />
+                      <entry key="APEXPAGE:VFG" value="1569592880326" />
+                      <entry key="APEXPAGE:VFG1" value="1570520755998" />
+                      <entry key="APEXPAGE:VFGF" value="1569596084842" />
+                      <entry key="APEXPAGE:VFMERGEFIELD" value="1571913347030" />
+                      <entry key="APEXPAGE:VFP1" value="1570519011617" />
+                      <entry key="APEXPAGE:VFP322" value="1570521350573" />
+                      <entry key="APEXPAGE:VFPAGE" value="1569582589644" />
+                      <entry key="APEXPAGE:VFSELECTLIST" value="1572257045202" />
+                      <entry key="APEXPAGE:VF_APEX_FUNCTION" value="1571314265697" />
+                      <entry key="APEXPAGE:VISUALFORCECHART" value="1572442387588" />
+                      <entry key="APEXTRIGGER:A1" value="1573047074267" />
+                      <entry key="APEXTRIGGER:A11" value="1573045584083" />
+                      <entry key="APEXTRIGGER:ACCOUNTDELETION" value="1573047159848" />
+                      <entry key="APEXTRIGGER:AFTERACCOUNTINSERT" value="1569850765019" />
+                      <entry key="APEXTRIGGER:APTRIGGER1" value="1571907541593" />
+                      <entry key="APEXTRIGGER:T12" value="1573209357000" />
+                      <entry key="APEXTRIGGER:T45" value="1572510667352" />
+                      <entry key="APEXTRIGGER:TRIG" value="1571907565550" />
+                      <entry key="APEXTRIGGER:TRIGG11" value="1572966124374" />
+                      <entry key="APEXTRIGGER:TRIGG2" value="1572955867364" />
+                      <entry key="APEXTRIGGER:UPDATEASSETNAMETRIGGER" value="1571907378438" />
+                      <entry key="AURADEFINITIONBUNDLE:AA0" value="1570790863330" />
+                      <entry key="AURADEFINITIONBUNDLE:AA0C" value="1570778091455" />
+                      <entry key="AURADEFINITIONBUNDLE:AA1" value="1570516239953" />
+                      <entry key="AURADEFINITIONBUNDLE:AA1C" value="1570441554024" />
+                      <entry key="AURADEFINITIONBUNDLE:AA1CC" value="1570198163000" />
+                      <entry key="AURADEFINITIONBUNDLE:AA2" value="1572267067629" />
+                      <entry key="AURADEFINITIONBUNDLE:AA2APP" value="1570786782414" />
+                      <entry key="AURADEFINITIONBUNDLE:ABC" value="1570181145791" />
+                      <entry key="AURADEFINITIONBUNDLE:ABCAPP" value="1570180720260" />
+                      <entry key="AURADEFINITIONBUNDLE:ACC1" value="1573040639185" />
+                      <entry key="AURADEFINITIONBUNDLE:ACCCOMP" value="1570450322619" />
+                      <entry key="AURADEFINITIONBUNDLE:ACCLIGHTNING" value="1570445950705" />
+                      <entry key="AURADEFINITIONBUNDLE:ACCORDIONGUI" value="1572437180212" />
+                      <entry key="AURADEFINITIONBUNDLE:ACCORDIONS" value="1572432359909" />
+                      <entry key="AURADEFINITIONBUNDLE:ACCOUNTLIGHTNING" value="1570445283596" />
+                      <entry key="AURADEFINITIONBUNDLE:ACCOUNTPAGE" value="1572340051000" />
+                      <entry key="AURADEFINITIONBUNDLE:ACCOUNTSCONTROLLER" value="1570445593631" />
+                      <entry key="AURADEFINITIONBUNDLE:ALLLIGHTNINGCOMPONENTS" value="1572441698164" />
+                      <entry key="AURADEFINITIONBUNDLE:APEXMETHODSIMPLEHELLOWORLD" value="1571923836328" />
+                      <entry key="AURADEFINITIONBUNDLE:APEXSHOWING" value="1570789605000" />
+                      <entry key="AURADEFINITIONBUNDLE:APPEVENT1" value="1571997983000" />
+                      <entry key="AURADEFINITIONBUNDLE:APPLAUNCHER" value="1571302973272" />
+                      <entry key="AURADEFINITIONBUNDLE:AVATAR" value="1572437428161" />
+                      <entry key="AURADEFINITIONBUNDLE:BASICCOMBOBOX" value="1572440836417" />
+                      <entry key="AURADEFINITIONBUNDLE:BIGCARD" value="1572339823730" />
+                      <entry key="AURADEFINITIONBUNDLE:BUTTONGROUP" value="1572437816543" />
+                      <entry key="AURADEFINITIONBUNDLE:BUTTONMENU" value="1572439932938" />
+                      <entry key="AURADEFINITIONBUNDLE:BUTTONS" value="1571148260228" />
+                      <entry key="AURADEFINITIONBUNDLE:C1" value="1570795838893" />
+                      <entry key="AURADEFINITIONBUNDLE:CAMPINGHEADER" value="1573038054044" />
+                      <entry key="AURADEFINITIONBUNDLE:CAMPINGLIST" value="1573037674014" />
+                      <entry key="AURADEFINITIONBUNDLE:CAMPINGLISTITEM" value="1573037660925" />
+                      <entry key="AURADEFINITIONBUNDLE:CARD1" value="1571144376116" />
+                      <entry key="AURADEFINITIONBUNDLE:CARD11" value="1571390820344" />
+                      <entry key="AURADEFINITIONBUNDLE:CARD12" value="1571399703276" />
+                      <entry key="AURADEFINITIONBUNDLE:CARD2" value="1571228689203" />
+                      <entry key="AURADEFINITIONBUNDLE:CARD4" value="1571388801971" />
+                      <entry key="AURADEFINITIONBUNDLE:CEEVENT" value="1573199378302" />
+                      <entry key="AURADEFINITIONBUNDLE:CEHANDLER" value="1573200387254" />
+                      <entry key="AURADEFINITIONBUNDLE:CENOTIFIER" value="1573200605099" />
+                      <entry key="AURADEFINITIONBUNDLE:CHECKBOX1" value="1572440630894" />
+                      <entry key="AURADEFINITIONBUNDLE:COMBOBOXTO1000" value="1572440898660" />
+                      <entry key="AURADEFINITIONBUNDLE:COMP1" value="1570796491759" />
+                      <entry key="AURADEFINITIONBUNDLE:COMP2" value="1570796578000" />
+                      <entry key="AURADEFINITIONBUNDLE:COMP3" value="1570796722594" />
+                      <entry key="AURADEFINITIONBUNDLE:COMP4" value="1570801862125" />
+                      <entry key="AURADEFINITIONBUNDLE:COMPEVENT" value="1573133183670" />
+                      <entry key="AURADEFINITIONBUNDLE:CON1" value="1570179641365" />
+                      <entry key="AURADEFINITIONBUNDLE:CONTACTLIST" value="1571123270937" />
+                      <entry key="AURADEFINITIONBUNDLE:CONTACTLIST2" value="1571393357757" />
+                      <entry key="AURADEFINITIONBUNDLE:CONTACTLISTCONTROLLER" value="1570776302000" />
+                      <entry key="AURADEFINITIONBUNDLE:CONTACTS" value="1571387982670" />
+                      <entry key="AURADEFINITIONBUNDLE:CONTACTS2" value="1570713882194" />
+                      <entry key="AURADEFINITIONBUNDLE:CONTACTS22" value="1570713788907" />
+                      <entry key="AURADEFINITIONBUNDLE:DATATABLE" value="1572273208509" />
+                      <entry key="AURADEFINITIONBUNDLE:DATATABLE2" value="1572273455988" />
+                      <entry key="AURADEFINITIONBUNDLE:DATECOMPONENT" value="1571148103153" />
+                      <entry key="AURADEFINITIONBUNDLE:DATEINPUT" value="1571391156182" />
+                      <entry key="AURADEFINITIONBUNDLE:DD" value="1570187061008" />
+                      <entry key="AURADEFINITIONBUNDLE:DD5X" value="1570185324911" />
+                      <entry key="AURADEFINITIONBUNDLE:DDC" value="1570188629199" />
+                      <entry key="AURADEFINITIONBUNDLE:DUALLISTBOX" value="1571147083399" />
+                      <entry key="AURADEFINITIONBUNDLE:EV1" value="1573121812000" />
+                      <entry key="AURADEFINITIONBUNDLE:EV2" value="1573126124549" />
+                      <entry key="AURADEFINITIONBUNDLE:EVENT1" value="1571398483040" />
+                      <entry key="AURADEFINITIONBUNDLE:EVENT2" value="1571998110515" />
+                      <entry key="AURADEFINITIONBUNDLE:EVENT3" value="1573135565261" />
+                      <entry key="AURADEFINITIONBUNDLE:EX1" value="1570455215918" />
+                      <entry key="AURADEFINITIONBUNDLE:EXPENSES" value="1570443138813" />
+                      <entry key="AURADEFINITIONBUNDLE:FIRINGEVENT" value="1573136604720" />
+                      <entry key="AURADEFINITIONBUNDLE:FIRSTAPP" value="1570182034885" />
+                      <entry key="AURADEFINITIONBUNDLE:FIRSTAPPC" value="1570178583885" />
+                      <entry key="AURADEFINITIONBUNDLE:FLOWINTERVIEW1" value="1571400828373" />
+                      <entry key="AURADEFINITIONBUNDLE:HELLOWORLD" value="1570789804861" />
+                      <entry key="AURADEFINITIONBUNDLE:INPUT1" value="1573040629743" />
+                      <entry key="AURADEFINITIONBUNDLE:INPUTNAMECOMPONENT" value="1571209312325" />
+                      <entry key="AURADEFINITIONBUNDLE:KOMPONENTDOEVENTU" value="1573137154371" />
+                      <entry key="AURADEFINITIONBUNDLE:L1" value="1573133832005" />
+                      <entry key="AURADEFINITIONBUNDLE:L10" value="1570450693866" />
+                      <entry key="AURADEFINITIONBUNDLE:L11" value="1570435723553" />
+                      <entry key="AURADEFINITIONBUNDLE:L11C" value="1570436067897" />
+                      <entry key="AURADEFINITIONBUNDLE:L12" value="1570453338517" />
+                      <entry key="AURADEFINITIONBUNDLE:L12C" value="1570453268856" />
+                      <entry key="AURADEFINITIONBUNDLE:L13" value="1570454454003" />
+                      <entry key="AURADEFINITIONBUNDLE:L1APP" value="1571035036386" />
+                      <entry key="AURADEFINITIONBUNDLE:L1APPC" value="1571035878312" />
+                      <entry key="AURADEFINITIONBUNDLE:L1C" value="1569832734000" />
+                      <entry key="AURADEFINITIONBUNDLE:L1X2" value="1570176110185" />
+                      <entry key="AURADEFINITIONBUNDLE:L2" value="1573198656251" />
+                      <entry key="AURADEFINITIONBUNDLE:L21" value="1570715009811" />
+                      <entry key="AURADEFINITIONBUNDLE:L21C" value="1570713894739" />
+                      <entry key="AURADEFINITIONBUNDLE:L22" value="1570715072577" />
+                      <entry key="AURADEFINITIONBUNDLE:L23" value="1570777679913" />
+                      <entry key="AURADEFINITIONBUNDLE:L23C" value="1570776066000" />
+                      <entry key="AURADEFINITIONBUNDLE:L24C" value="1570777174487" />
+                      <entry key="AURADEFINITIONBUNDLE:L2EVENT" value="1573198635836" />
+                      <entry key="AURADEFINITIONBUNDLE:L33" value="1571035396275" />
+                      <entry key="AURADEFINITIONBUNDLE:L33C" value="1570777718253" />
+                      <entry key="AURADEFINITIONBUNDLE:LAYOUT1" value="1573039360747" />
+                      <entry key="AURADEFINITIONBUNDLE:LC1" value="1573564080599" />
+                      <entry key="AURADEFINITIONBUNDLE:LI2" value="1570012466513" />
+                      <entry key="AURADEFINITIONBUNDLE:LI2C" value="1570011899376" />
+                      <entry key="AURADEFINITIONBUNDLE:LIGHT22" value="1570523107085" />
+                      <entry key="AURADEFINITIONBUNDLE:LIGHTAPP" value="1569832526969" />
+                      <entry key="AURADEFINITIONBUNDLE:LIGHTNINGCOMPONENTEVENT" value="1573134321565" />
+                      <entry key="AURADEFINITIONBUNDLE:LIGHTNINGEVENTSAPP" value="1573134180041" />
+                      <entry key="AURADEFINITIONBUNDLE:LIGHTNINGEVENTSCOMPCONTAINER" value="1573134170654" />
+                      <entry key="AURADEFINITIONBUNDLE:LIGHTNINGTAB" value="1573130316297" />
+                      <entry key="AURADEFINITIONBUNDLE:LL1" value="1570183138432" />
+                      <entry key="AURADEFINITIONBUNDLE:LL1C" value="1570183502897" />
+                      <entry key="AURADEFINITIONBUNDLE:LOOKUPCOMP" value="1570804480000" />
+                      <entry key="AURADEFINITIONBUNDLE:LX1" value="1570173007284" />
+                      <entry key="AURADEFINITIONBUNDLE:LX1C" value="1570180366761" />
+                      <entry key="AURADEFINITIONBUNDLE:LX2" value="1570174944000" />
+                      <entry key="AURADEFINITIONBUNDLE:LX2C" value="1570175077958" />
+                      <entry key="AURADEFINITIONBUNDLE:LZ1" value="1570180397311" />
+                      <entry key="AURADEFINITIONBUNDLE:MAINTAB" value="1571998280666" />
+                      <entry key="AURADEFINITIONBUNDLE:MAP1" value="1572274359851" />
+                      <entry key="AURADEFINITIONBUNDLE:MAPCOMPONENT" value="1572274564623" />
+                      <entry key="AURADEFINITIONBUNDLE:MYAPP" value="1570180284204" />
+                      <entry key="AURADEFINITIONBUNDLE:MYAPPCONTROLLER" value="1570180190678" />
+                      <entry key="AURADEFINITIONBUNDLE:MYCONTACTLIST" value="1571214828052" />
+                      <entry key="AURADEFINITIONBUNDLE:MYEVENT" value="1573134814803" />
+                      <entry key="AURADEFINITIONBUNDLE:MYHANDLER" value="1573135640023" />
+                      <entry key="AURADEFINITIONBUNDLE:MYNOTIFIER" value="1573135611719" />
+                      <entry key="AURADEFINITIONBUNDLE:NOWYCOMP" value="1571035584168" />
+                      <entry key="AURADEFINITIONBUNDLE:PATH1" value="1571400730568" />
+                      <entry key="AURADEFINITIONBUNDLE:PUBLISHERS" value="1571303736645" />
+                      <entry key="AURADEFINITIONBUNDLE:QUICKCONTACTS" value="1571046306069" />
+                      <entry key="AURADEFINITIONBUNDLE:RANDOMAPP" value="1573218186226" />
+                      <entry key="AURADEFINITIONBUNDLE:RANDOMTAB" value="1573217469000" />
+                      <entry key="AURADEFINITIONBUNDLE:RICHTEXT" value="1571235789670" />
+                      <entry key="AURADEFINITIONBUNDLE:SEARCH" value="1572441408553" />
+                      <entry key="AURADEFINITIONBUNDLE:SEARCHBAR" value="1570803694092" />
+                      <entry key="AURADEFINITIONBUNDLE:SUBCOMPONENT" value="1573131238708" />
+                      <entry key="AURADEFINITIONBUNDLE:SUPERCOMPONENT" value="1573131081112" />
+                      <entry key="AURADEFINITIONBUNDLE:SVG" value="1570449467000" />
+                      <entry key="AURADEFINITIONBUNDLE:TABELA" value="1571146955404" />
+                      <entry key="AURADEFINITIONBUNDLE:TH_COMPONENT" value="1573039449598" />
+                      <entry key="AURADEFINITIONBUNDLE:TREEGRID" value="1572441714861" />
+                      <entry key="AURADEFINITIONBUNDLE:X" value="1573555230098" />
+                      <entry key="AURADEFINITIONBUNDLE:X1" value="1570714772644" />
+                      <entry key="AURADEFINITIONBUNDLE:X134" value="1571992587592" />
+                      <entry key="AURADEFINITIONBUNDLE:X1C" value="1570185132244" />
+                      <entry key="AURADEFINITIONBUNDLE:X2" value="1571992314802" />
+                      <entry key="AURADEFINITIONBUNDLE:X2APP" value="1571145555963" />
+                      <entry key="AURADEFINITIONBUNDLE:X3" value="1571386164000" />
+                      <entry key="AURADEFINITIONBUNDLE:X33" value="1571663499410" />
+                      <entry key="AURADEFINITIONBUNDLE:X333" value="1571728443042" />
+                      <entry key="AURADEFINITIONBUNDLE:X33BUTTON" value="1571661583155" />
+                      <entry key="AURADEFINITIONBUNDLE:X45" value="1571922283986" />
+                      <entry key="AURADEFINITIONBUNDLE:X45C" value="1571925098506" />
+                      <entry key="AURADEFINITIONBUNDLE:X5" value="1571400851162" />
+                      <entry key="AURADEFINITIONBUNDLE:X6" value="1571397678000" />
+                      <entry key="AURADEFINITIONBUNDLE:X7" value="1571398425232" />
+                      <entry key="AURADEFINITIONBUNDLE:XC2" value="1571142153000" />
+                      <entry key="AURADEFINITIONBUNDLE:XEVENT1" value="1573139851800" />
+                      <entry key="AURADEFINITIONBUNDLE:XHANDLER" value="1573142150733" />
+                      <entry key="AURADEFINITIONBUNDLE:Z1" value="1573201783760" />
+                      <entry key="AURADEFINITIONBUNDLE:Z1C" value="1573201871794" />
+                      <entry key="AURADEFINITIONBUNDLE:Z1HANDLER" value="1573203327591" />
+                      <entry key="CUSTOMOBJECT:STREAMACTIVITYACCESS" value="1569573188000" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:HELLOWORLD2" value="1573228258000" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:LWC1" value="1573544034000" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:QWERTY" value="1573206238000" />
+                      <entry key="STATICRESOURCE:APP1" value="1570175131194" />
+                      <entry key="STATICRESOURCE:BASIC" value="1573122005165" />
+                      <entry key="STATICRESOURCE:CONTACTFORM" value="1573121945221" />
+                      <entry key="STATICRESOURCE:CSS1" value="1570012418749" />
+                      <entry key="STATICRESOURCE:JS1" value="1570023288114" />
+                      <entry key="STATICRESOURCE:JS2" value="1570023492091" />
+                      <entry key="STATICRESOURCE:JSVF99" value="1571295762300" />
+                      <entry key="STATICRESOURCE:STATICRESOURCETOADD" value="1571397343190" />
+                      <entry key="STATICRESOURCE:VB" value="1570519915564" />
+                      <entry key="STATICRESOURCE:VF991" value="1571295880421" />
+                    </map>
+                  </option>
+                  <option name="lastBuildScope" value="MODULE" />
+                  <option name="lastBuildViewToggles">
+                    <map>
+                      <entry key="DEPLOY">
+                        <value>
+                          <BuildViewToggles>
+                            <option name="showLocalAndServer" value="true" />
+                            <option name="showLocalOnly" value="true" />
+                            <option name="showServerOnly" value="false" />
+                            <option name="showSubscribedOnly" value="true" />
+                          </BuildViewToggles>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                </ConnectionWorkspaceSettings>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="metadataContents">
+          <map>
+            <entry key="dev">
+              <value>
+                <MetadataContents>
+                  <option name="lastPopulated" value="1569571933181" />
+                  <option name="metadataTypes">
+                    <set>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="LightningSalesConsole_UtilityBar" />
+                            <option value="LightningService_UtilityBar" />
+                          </set>
+                        </option>
+                        <option name="name" value="FlexiPage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Custom%3A Support Profile" />
+                            <option value="Customer Community Plus Login User" />
+                            <option value="High Volume Customer Portal User" />
+                            <option value="Analytics Cloud Integration User" />
+                            <option value="Cross Org Data Proxy User" />
+                            <option value="Force%2Ecom - Free User" />
+                            <option value="PlatformPortal" />
+                            <option value="External Identity User" />
+                            <option value="Force%2Ecom - App Subscription User" />
+                            <option value="Standard" />
+                            <option value="Chatter External User" />
+                            <option value="Identity User" />
+                            <option value="Custom%3A Sales Profile" />
+                            <option value="Partner Community Login User" />
+                            <option value="ContractManager" />
+                            <option value="Customer Community Plus User" />
+                            <option value="Partner Community User" />
+                            <option value="StandardAul" />
+                            <option value="Chatter Moderator User" />
+                            <option value="Gold Partner User" />
+                            <option value="ReadOnly" />
+                            <option value="SolutionManager" />
+                            <option value="Chatter Free User" />
+                            <option value="HighVolumePortal" />
+                            <option value="Customer Portal Manager Standard" />
+                            <option value="MarketingProfile" />
+                            <option value="Customer Community Login User" />
+                            <option value="Analytics Cloud Security User" />
+                            <option value="Admin" />
+                            <option value="Silver Partner User" />
+                            <option value="Partner App Subscription User" />
+                            <option value="Work%2Ecom Only User" />
+                            <option value="Authenticated Website" />
+                            <option value="Customer Community User" />
+                            <option value="Custom%3A Marketing Profile" />
+                            <option value="Customer Portal Manager Custom" />
+                          </set>
+                        </option>
+                        <option name="name" value="Profile" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="ApexDevNet" />
+                          </set>
+                        </option>
+                        <option name="name" value="RemoteSiteSetting" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead.Standard_Lead_Duplicate_Rule" />
+                            <option value="Account.Standard_Account_Duplicate_Rule" />
+                            <option value="Contact.Standard_Contact_Duplicate_Rule" />
+                          </set>
+                        </option>
+                        <option name="name" value="DuplicateRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Test1" />
+                            <option value="A" />
+                            <option value="test1" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexTestSuite" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Company" />
+                            <option value="Address" />
+                            <option value="Org" />
+                            <option value="Macro" />
+                            <option value="Product" />
+                            <option value="Security" />
+                            <option value="Knowledge" />
+                            <option value="Ideas" />
+                            <option value="Name" />
+                            <option value="Case" />
+                            <option value="FieldService" />
+                            <option value="LiveMessage" />
+                            <option value="OmniChannel" />
+                            <option value="Opportunity" />
+                            <option value="Search" />
+                            <option value="FileUploadAndDownloadSecurity" />
+                            <option value="Activities" />
+                            <option value="Order" />
+                            <option value="OrgPreference" />
+                            <option value="GoogleApps" />
+                            <option value="Bot" />
+                            <option value="BusinessHours" />
+                            <option value="UserInterface" />
+                            <option value="Forecasting" />
+                            <option value="Mobile" />
+                            <option value="Analytics" />
+                            <option value="ExperienceBundle" />
+                            <option value="Quote" />
+                            <option value="LiveAgent" />
+                            <option value="UserManagement" />
+                            <option value="Entitlement" />
+                            <option value="PathAssistant" />
+                            <option value="Notifications" />
+                            <option value="Contract" />
+                          </set>
+                        </option>
+                        <option name="name" value="Settings" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DataCloudGeoLocation" />
+                          </set>
+                        </option>
+                        <option name="name" value="CleanDataService" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case.Standard" />
+                          </set>
+                        </option>
+                        <option name="name" value="EscalationRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="EscalationRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account-Account %28Sales%29 Layout" />
+                            <option value="Contact-Contact %28Support%29 Layout" />
+                            <option value="Product2-Product Layout" />
+                            <option value="Lead-Lead Layout" />
+                            <option value="ConsumptionRate-Consumption Rate Layout" />
+                            <option value="Case-Case %28Sales%29 Layout" />
+                            <option value="Contact-Contact Layout" />
+                            <option value="Lead-Lead %28Support%29 Layout" />
+                            <option value="DandBCompany-D%26B Company Layout" />
+                            <option value="Case-Case %28Support%29 Layout" />
+                            <option value="AssetRelationship-Asset Relationship Layout" />
+                            <option value="Macro-Macro Layout" />
+                            <option value="Order-Order Layout" />
+                            <option value="UserProvisioningRequest-User Provisioning Request Layout" />
+                            <option value="Solution-Solution Layout" />
+                            <option value="ScorecardMetric-Scorecard Metric Layout" />
+                            <option value="Pricebook2-Price Book Layout" />
+                            <option value="Event-Event Layout" />
+                            <option value="UserProvisioningLog-User Provisioning Log Layout" />
+                            <option value="UserProvAccount-User Provisioning Account Layout" />
+                            <option value="Contact-Contact %28Marketing%29 Layout" />
+                            <option value="Task-Task Layout" />
+                            <option value="ConsumptionSchedule-Consumption Schedule Layout" />
+                            <option value="Opportunity-Opportunity Layout" />
+                            <option value="Asset-Asset Layout" />
+                            <option value="OrderItem-Order Product Layout" />
+                            <option value="DuplicateRecordSet-Duplicate Record Set Layout" />
+                            <option value="OpportunityLineItem-Opportunity Product Layout" />
+                            <option value="Case-Case Layout" />
+                            <option value="Contract-Contract Layout" />
+                            <option value="Account-Account Layout" />
+                            <option value="Campaign-Campaign Layout" />
+                            <option value="CommunityMemberLayout-Community Member Layout" />
+                            <option value="ScorecardAssociation-Scorecard Association Layout" />
+                            <option value="Opportunity-Opportunity %28Sales%29 Layout" />
+                            <option value="SocialPersona-Social Persona Layout" />
+                            <option value="Scorecard-Scorecard Layout" />
+                            <option value="Case-Case %28Marketing%29 Layout" />
+                            <option value="PricebookEntry-Price Book Entry Layout" />
+                            <option value="CaseClose-Close Case Layout" />
+                            <option value="Idea-Idea Layout" />
+                            <option value="ContentVersion-Content Version Layout" />
+                            <option value="Opportunity-Opportunity %28Support%29 Layout" />
+                            <option value="Global-Global Layout" />
+                            <option value="Account-Account %28Marketing%29 Layout" />
+                            <option value="Lead-Lead %28Sales%29 Layout" />
+                            <option value="EmailMessage-Email Message Layout" />
+                            <option value="Individual-Individual Layout" />
+                            <option value="SocialPost-Social Post Layout" />
+                            <option value="ProductConsumptionSchedule-Product Consumption Schedule Layout" />
+                            <option value="Account-Account %28Support%29 Layout" />
+                            <option value="CampaignMember-Campaign Member Page Layout" />
+                            <option value="QuickText-Quick Text Layout" />
+                            <option value="User-User Layout" />
+                            <option value="Contact-Contact %28Sales%29 Layout" />
+                            <option value="Lead-Lead %28Marketing%29 Layout" />
+                            <option value="Opportunity-Opportunity %28Marketing%29 Layout" />
+                          </set>
+                        </option>
+                        <option name="name" value="Layout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="VF1" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexPage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="ConsumptionSchedule" />
+                            <option value="Account" />
+                            <option value="CollaborationGroup" />
+                            <option value="Task" />
+                            <option value="AuthorizationFormConsent" />
+                            <option value="ForecastingCategoryMapping" />
+                            <option value="OpportunityLineItem" />
+                            <option value="CaseContactRole" />
+                            <option value="Activity" />
+                            <option value="MessagingEndUser" />
+                            <option value="Image" />
+                            <option value="Document" />
+                            <option value="ContactCleanInfo" />
+                            <option value="ScorecardMetric" />
+                            <option value="PushTopic" />
+                            <option value="ContractContactRole" />
+                            <option value="FeedItem" />
+                            <option value="ExchangeUserMapping" />
+                            <option value="SocialPersona" />
+                            <option value="Asset" />
+                            <option value="ContactPointTypeConsent" />
+                            <option value="PromptAction" />
+                            <option value="CampaignMember" />
+                            <option value="Order" />
+                            <option value="CollaborationGroupMember" />
+                            <option value="AccountContactRole" />
+                            <option value="StreamingChannel" />
+                            <option value="EmailMessage" />
+                            <option value="Pricebook2" />
+                            <option value="AccountCleanInfo" />
+                            <option value="UserProvisioningRequest" />
+                            <option value="OrgDeleteRequest" />
+                            <option value="Recommendation" />
+                            <option value="PricebookEntry" />
+                            <option value="LeadCleanInfo" />
+                            <option value="Campaign" />
+                            <option value="Idea" />
+                            <option value="AuthorizationForm" />
+                            <option value="Individual" />
+                            <option value="ExpressionFilter" />
+                            <option value="Contract" />
+                            <option value="ChatterActivity" />
+                            <option value="ScorecardAssociation" />
+                            <option value="PartnerRole" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="MacroAction" />
+                            <option value="Site" />
+                            <option value="DataUsePurpose" />
+                            <option value="User" />
+                            <option value="ContactRequest" />
+                            <option value="Product2" />
+                            <option value="ProductConsumptionSchedule" />
+                            <option value="Macro" />
+                            <option value="MacroInstruction" />
+                            <option value="ExpressionFilterCriteria" />
+                            <option value="DuplicateRecordItem" />
+                            <option value="CaseComment" />
+                            <option value="Case" />
+                            <option value="AuthorizationFormText" />
+                            <option value="ContentVersion" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="DuplicateRecordSet" />
+                            <option value="Scorecard" />
+                            <option value="Topic" />
+                            <option value="Solution" />
+                            <option value="AssetRelationship" />
+                            <option value="StreamActivityAccess" />
+                            <option value="QuickText" />
+                            <option value="DandBCompany" />
+                            <option value="DataUseLegalBasis" />
+                            <option value="OpportunityContactRole" />
+                            <option value="AuthorizationFormDataUse" />
+                            <option value="Contact" />
+                            <option value="RequestsForAccessSIQ" />
+                            <option value="OrderItem" />
+                            <option value="AssistantProgress" />
+                            <option value="MessagingSession" />
+                            <option value="ConsumptionRate" />
+                            <option value="Event" />
+                            <option value="RecordAction" />
+                            <option value="TopicAssignment" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObject" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Opportunity.TrackingNumber__c" />
+                            <option value="Account.Active__c" />
+                            <option value="Case.SLAViolation__c" />
+                            <option value="Lead.Primary__c" />
+                            <option value="CaseComment.ParentOrigin" />
+                            <option value="Opportunity.DeliveryInstallationStatus__c" />
+                            <option value="Lead.CurrentGenerators__c" />
+                            <option value="Account.NumberofLocations__c" />
+                            <option value="Contact.Level__c" />
+                            <option value="Opportunity.MainCompetitors__c" />
+                            <option value="Contact.abc__c" />
+                            <option value="Account.SLASerialNumber__c" />
+                            <option value="Goal.OrigGoalId__c" />
+                            <option value="Account.UpsellOpportunity__c" />
+                            <option value="Account.CustomerPriority__c" />
+                            <option value="Account.SLA__c" />
+                            <option value="Lead.SICCode__c" />
+                            <option value="Contact.Languages__c" />
+                            <option value="Opportunity.OrderNumber__c" />
+                            <option value="Metric.OrigMetricId__c" />
+                            <option value="Case.EngineeringReqNumber__c" />
+                            <option value="CaseComment.CommentBody" />
+                            <option value="Account.SLAExpirationDate__c" />
+                            <option value="Opportunity.CurrentGenerators__c" />
+                            <option value="Case.PotentialLiability__c" />
+                            <option value="Lead.ProductInterest__c" />
+                            <option value="Lead.NumberofLocations__c" />
+                            <option value="Case.Product__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomField" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Metric.Progress" />
+                            <option value="Metric.Completion" />
+                          </set>
+                        </option>
+                        <option name="name" value="RecordType" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Opportunity.DeliveryStatus" />
+                            <option value="Campaign.ViewCampaignInfluenceReport" />
+                            <option value="Case.UpsellCrosssellOpportunity" />
+                            <option value="Account.Billing" />
+                          </set>
+                        </option>
+                        <option name="name" value="WebLink" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order.AllActivatedOrders" />
+                            <option value="Opportunity.NewThisWeek" />
+                            <option value="Case.AllOpenCases" />
+                            <option value="Order.AllDraftOrders" />
+                            <option value="Case.MyCases" />
+                            <option value="User.ActiveUsers" />
+                            <option value="Order.AllOrders" />
+                            <option value="Scorecard.MyScorecards" />
+                            <option value="Opportunity.ClosingNextMonth" />
+                            <option value="Contact.AllContacts" />
+                            <option value="Opportunity.Default_Opportunity_Pipeline" />
+                            <option value="Case.MyOpenCases" />
+                            <option value="Opportunity.Private" />
+                            <option value="Contract.AllContracts" />
+                            <option value="Contract.MyActivatedContracts" />
+                            <option value="Recommendation.All_Recommendations" />
+                            <option value="Contract.AllDraftContracts" />
+                            <option value="WorkFeedbackRequest.AboutTopics" />
+                            <option value="ConsumptionSchedule.My_ConsumptionSchedules" />
+                            <option value="Contact.NewLastWeek" />
+                            <option value="Task.DelegatedTasks" />
+                            <option value="SocialPersona.AllSocialPersonas" />
+                            <option value="User.AllUsers" />
+                            <option value="Task.UnscheduledTasks" />
+                            <option value="Contract.MyDraftContracts" />
+                            <option value="Lead.TodaysLeads" />
+                            <option value="Task.CompletedTasks" />
+                            <option value="Solution.AllUnreviewedSolutions" />
+                            <option value="Activity.UpcomingEvents" />
+                            <option value="Account.NewLastWeek" />
+                            <option value="Account.MyAccounts" />
+                            <option value="Event.TodaysAgenda" />
+                            <option value="Opportunity.AllOpportunities" />
+                            <option value="Task.OpenTasks" />
+                            <option value="Task.OverdueTasks" />
+                            <option value="Contact.BirthdaysThisMonth" />
+                            <option value="Account.AllAccounts" />
+                            <option value="Opportunity.ClosingThisMonth" />
+                            <option value="ContactRequest.My_ContactRequests" />
+                            <option value="Contact.NewThisWeek" />
+                            <option value="CollaborationGroup.All_ChatterGroups" />
+                            <option value="Activity.AllActivities" />
+                            <option value="Opportunity.NewLastWeek" />
+                            <option value="Event.MyTeamsRecentEvents" />
+                            <option value="Event.MyRecentEvents" />
+                            <option value="Asset.AllAssets" />
+                            <option value="User.AdminUsers" />
+                            <option value="Scorecard.AllScorecards" />
+                            <option value="Opportunity.MyOpportunities" />
+                            <option value="Campaign.MyActiveCampaigns" />
+                            <option value="Lead.MyUnreadLeads" />
+                            <option value="Campaign.AllActiveCampaigns" />
+                            <option value="Product2.AllProducts" />
+                            <option value="Contact.MyContacts" />
+                            <option value="Activity.TodaysTasks" />
+                            <option value="ConsumptionSchedule.All_ConsumptionSchedules" />
+                            <option value="Task.RecurringTasks" />
+                            <option value="Opportunity.Won" />
+                            <option value="Case.AllClosedCases" />
+                            <option value="Solution.AllReviewedSolutions" />
+                            <option value="Account.PlatinumandGoldSLACustomers" />
+                            <option value="Contract.MyInApprovalContracts" />
+                            <option value="Activity.MyActivities" />
+                            <option value="Task.TodaysTasks" />
+                            <option value="Contract.AllInApprovalContracts" />
+                            <option value="Event.MyTeamsUpcomingEvents" />
+                            <option value="WorkFeedbackTemplate.All" />
+                            <option value="Lead.AllOpenLeads" />
+                            <option value="Account.NewThisWeek" />
+                            <option value="WorkFeedbackRequest.All" />
+                            <option value="Lead.ViewCustom1" />
+                            <option value="Idea.Ideas_Last_7_Days" />
+                            <option value="Event.MyUpcomingEvents" />
+                            <option value="Lead.ViewCustom2" />
+                            <option value="Contract.AllActivatedContracts" />
+                          </set>
+                        </option>
+                        <option name="name" value="ListView" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order" />
+                            <option value="Account" />
+                            <option value="FlowInterview" />
+                            <option value="Campaign" />
+                            <option value="User" />
+                            <option value="ListEmail" />
+                            <option value="Individual" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="Asset" />
+                            <option value="Contact" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="SharingRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DE Default" />
+                          </set>
+                        </option>
+                        <option name="name" value="HomePageLayout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DirectorDirectSales" />
+                            <option value="SVPSalesMarketing" />
+                            <option value="MarketingTeam" />
+                            <option value="COO" />
+                            <option value="DirectorChannelSales" />
+                            <option value="InstallationRepairServices" />
+                            <option value="SVPHumanResources" />
+                            <option value="SVPCustomerServiceSupport" />
+                            <option value="VPInternationalSales" />
+                            <option value="EasternSalesTeam" />
+                            <option value="ChannelSalesTeam" />
+                            <option value="CEO" />
+                            <option value="CFO" />
+                            <option value="CustomerSupportInternational" />
+                            <option value="CustomerSupportNorthAmerica" />
+                            <option value="WesternSalesTeam" />
+                            <option value="VPMarketing" />
+                            <option value="VPNorthAmericanSales" />
+                          </set>
+                        </option>
+                        <option name="name" value="Role" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="sf_com_apps" />
+                          </set>
+                        </option>
+                        <option name="name" value="InstalledPackage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order" />
+                            <option value="Account" />
+                            <option value="Task" />
+                            <option value="Contact" />
+                            <option value="Case" />
+                            <option value="ContentDocument" />
+                            <option value="Campaign" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="Asset" />
+                            <option value="Event" />
+                            <option value="Contract" />
+                            <option value="Solution" />
+                          </set>
+                        </option>
+                        <option name="name" value="TopicsForObjects" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AutoResponseRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Salesforce1" />
+                            <option value="AppSwitcher" />
+                          </set>
+                        </option>
+                        <option name="name" value="AppMenu" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="CustomLabels" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomLabels" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="A" />
+                            <option value="Ap" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexClass" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Internal Zone" />
+                          </set>
+                        </option>
+                        <option name="name" value="Community" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case.Standard" />
+                            <option value="Lead.Standard" />
+                          </set>
+                        </option>
+                        <option name="name" value="AssignmentRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AssignmentRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="standard__Sales" />
+                            <option value="standard__LightningService" />
+                            <option value="standard__ServiceConsole" />
+                            <option value="standard__Community" />
+                            <option value="standard__AppLauncher" />
+                            <option value="standard__Chatter" />
+                            <option value="standard__LightningInstrumentation" />
+                            <option value="standard__Platform" />
+                            <option value="standard__LightningSales" />
+                            <option value="standard__Service" />
+                            <option value="standard__Marketing" />
+                            <option value="standard__Sites" />
+                            <option value="standard__Content" />
+                            <option value="standard__Insights" />
+                            <option value="standard__LightningSalesConsole" />
+                            <option value="standard__LightningBolt" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomApplication" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="NewGroup" />
+                            <option value="Task.EditDescription" />
+                            <option value="FeedItem.NewTaskFromFeedItem" />
+                            <option value="NewNote" />
+                            <option value="Task.EditDescription_0" />
+                            <option value="CollaborationGroup.NewGroupMember" />
+                            <option value="CollaborationGroup.NewGroupRecord" />
+                            <option value="SendEmail" />
+                            <option value="NewLead" />
+                            <option value="Task.UpdateStatus" />
+                            <option value="NewOpportunity" />
+                            <option value="NewTask" />
+                            <option value="Task.Defer_0" />
+                            <option value="NewAccount" />
+                            <option value="Task.UpdateStatus_0" />
+                            <option value="Task.UpdatePriority" />
+                            <option value="Case.LogACall" />
+                            <option value="Case.NewChildCase" />
+                            <option value="Task.UpdatePriority_0" />
+                            <option value="NewContact" />
+                            <option value="NewCase" />
+                            <option value="Task.Defer" />
+                            <option value="LogACall" />
+                            <option value="NewEvent" />
+                          </set>
+                        </option>
+                        <option name="name" value="QuickAction" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Individual" />
+                            <option value="Lead" />
+                            <option value="Contact" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Contact.Standard_Contact_Match_Rule_v1_1" />
+                            <option value="Account.Standard_Account_Match_Rule_v1_0" />
+                            <option value="Lead.Standard_Lead_Match_Rule_v1_0" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="FiscalYearPeriodPrefix" />
+                            <option value="TaskPriority" />
+                            <option value="EventType" />
+                            <option value="CaseContactRole" />
+                            <option value="WorkOrderStatus" />
+                            <option value="Product2Family" />
+                            <option value="Industry" />
+                            <option value="CasePriority" />
+                            <option value="OrderType" />
+                            <option value="ContractContactRole" />
+                            <option value="TaskType" />
+                            <option value="IdeaStatus" />
+                            <option value="AccountRating" />
+                            <option value="SalesTeamRole" />
+                            <option value="CampaignType" />
+                            <option value="WorkOrderLineItemStatus" />
+                            <option value="AccountOwnership" />
+                            <option value="SolutionStatus" />
+                            <option value="AccountContactRole" />
+                            <option value="RoleInTerritory2" />
+                            <option value="CampaignMemberStatus" />
+                            <option value="ServiceContractApprovalStatus" />
+                            <option value="LeadSource" />
+                            <option value="CaseType" />
+                            <option value="CaseStatus" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="PartnerRole" />
+                            <option value="QuickTextChannel" />
+                            <option value="CampaignStatus" />
+                            <option value="QuoteStatus" />
+                            <option value="ContractStatus" />
+                            <option value="EventSubject" />
+                            <option value="AssetStatus" />
+                            <option value="FiscalYearQuarterName" />
+                            <option value="Salutation" />
+                            <option value="ContactRole" />
+                            <option value="FiscalYearQuarterPrefix" />
+                            <option value="LeadStatus" />
+                            <option value="IdeaMultiCategory" />
+                            <option value="OrderStatus" />
+                            <option value="SocialPostEngagementLevel" />
+                            <option value="AccountContactMultiRoles" />
+                            <option value="EntitlementType" />
+                            <option value="FiscalYearPeriodName" />
+                            <option value="TaskSubject" />
+                            <option value="TaskStatus" />
+                            <option value="AccountType" />
+                            <option value="OpportunityStage" />
+                            <option value="SocialPostClassification" />
+                            <option value="CaseReason" />
+                            <option value="IdeaThemeStatus" />
+                            <option value="WorkOrderPriority" />
+                            <option value="QuickTextCategory" />
+                            <option value="OpportunityType" />
+                            <option value="SocialPostReviewedStatus" />
+                            <option value="CaseOrigin" />
+                          </set>
+                        </option>
+                        <option name="name" value="StandardValueSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="standard-Macro" />
+                            <option value="standard-Case" />
+                            <option value="standard-AuthorizationFormConsent" />
+                            <option value="standard-Solution" />
+                            <option value="standard-ContentSubscriptions" />
+                            <option value="standard-AuthorizationFormText" />
+                            <option value="standard-DuplicateRecordSet" />
+                            <option value="standard-Account" />
+                            <option value="standard-home" />
+                            <option value="standard-OtherUserProfile" />
+                            <option value="standard-AppLauncher" />
+                            <option value="standard-DandBCompany" />
+                            <option value="standard-Individual" />
+                            <option value="standard-Campaign" />
+                            <option value="standard-Sites" />
+                            <option value="standard-report" />
+                            <option value="standard-DataUseLegalBasis" />
+                            <option value="standard-Recommendation" />
+                            <option value="standard-ConsumptionSchedule" />
+                            <option value="standard-Contract" />
+                            <option value="standard-DataUsePurpose" />
+                            <option value="standard-Chatter" />
+                            <option value="standard-Contact" />
+                            <option value="standard-Product2" />
+                            <option value="standard-Asset" />
+                            <option value="standard-Idea" />
+                            <option value="standard-Image" />
+                            <option value="standard-StreamingChannel" />
+                            <option value="standard-AuthorizationForm" />
+                            <option value="standard-Dashboard" />
+                            <option value="standard-File" />
+                            <option value="standard-Document" />
+                            <option value="standard-Pricebook2" />
+                            <option value="standard-ListEmail" />
+                            <option value="standard-UserProfile" />
+                            <option value="standard-Order" />
+                            <option value="standard-Workspace" />
+                            <option value="standard-Forecasting3" />
+                            <option value="standard-ProfilePlatformFeed" />
+                            <option value="standard-CollaborationGroup" />
+                            <option value="standard-AuthorizationFormDataUse" />
+                            <option value="standard-JigsawSearch" />
+                            <option value="standard-ContentSearch" />
+                            <option value="standard-Lead" />
+                            <option value="standard-ContentContribute" />
+                            <option value="standard-ProfilePlatformOverview" />
+                            <option value="standard-Console" />
+                            <option value="standard-ContactRequest" />
+                            <option value="standard-UserProvisioningRequest" />
+                            <option value="standard-Opportunity" />
+                            <option value="standard-ContactPointTypeConsent" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomTab" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public" />
+                          </set>
+                        </option>
+                        <option name="name" value="EmailFolder" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public" />
+                          </set>
+                        </option>
+                        <option name="name" value="ReportFolder" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
+                            <option value="unfiled$public/SupportSelfServiceResetPassword" />
+                            <option value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
+                            <option value="unfiled$public/SupportCaseCreatedPhoneInquiries" />
+                            <option value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
+                            <option value="unfiled$public/SupportCaseAssignmentNotification" />
+                            <option value="unfiled$public/SupportCaseResponse" />
+                            <option value="unfiled$public/SalesNewCustomerEmail" />
+                            <option value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
+                            <option value="unfiled$public/SupportEscalatedCaseNotification" />
+                            <option value="unfiled$public/SupportCaseCreatedWebInquiries" />
+                            <option value="unfiled$public/SupportEscalatedCaseReassignment" />
+                            <option value="unfiled$public/MarketingProductInquiryResponse" />
+                          </set>
+                        </option>
+                        <option name="name" value="EmailTemplate" />
+                      </MetadataType>
+                    </set>
+                  </option>
+                </MetadataContents>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="documentText" value="//select Name, (select LastName from Contacts) from Account&#10;&#10;//select LastName, (select Name from Accounts) from Contact&#10;//SELECT contact.firstname, contact.Account.name FROM Contact&#10;//select multipicklist__c&#9; from Account where multipicklist__c != null&#10;&#10;//select multipicklist__c&#9; from Account where multipicklist__c includes ('C')&#10;&#10;//select Id from Account&#10; select Id from Account where Id in (select AccountId from Opportunity)&#10;// select AccountId from Opportunity // blad&#10;" />
+            <option name="resultsSplitterProportion" value="0.49101797" />
+            <option name="splitterProportion" value="0.5324036" />
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RPalhOWYE9HhN581v7CRIWn9fr" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mparzych004\IdeaProjects\dev\src" />
+      <recent name="C:\Users\mparzych004\IdeaProjects\dev\src\pages\someVFPages" />
+      <recent name="C:\Users\mparzych004\IdeaProjects\dev\src\classes\someClasses1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Apex Unit Tests.TriggTest1.abc">
+    <configuration name="Klas1Test.revIntTest" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="dev" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="dev">
+            <value>
+              <set>
+                <option value="Klas1Test" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="Klas1Test">
+            <value>
+              <set>
+                <option value="revIntTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Klas1Test.revRecTest" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="dev" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="dev">
+            <value>
+              <set>
+                <option value="Klas1Test" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="Klas1Test">
+            <value>
+              <set>
+                <option value="revRecTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MathsTest" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="dev" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="dev">
+            <value>
+              <set>
+                <option value="MathsTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map />
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MathsTest.add" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="dev" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="dev">
+            <value>
+              <set>
+                <option value="MathsTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="MathsTest">
+            <value>
+              <set>
+                <option value="add" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TriggTest1.abc" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="dev" />
+      <option name="connectionType" value="MDAPI" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="dev">
+            <value>
+              <set>
+                <option value="TriggTest1" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="nbaLogLevel" value="INFO" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="TriggTest1">
+            <value>
+              <set>
+                <option value="abc" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="waveLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Apex Unit Tests.TriggTest1.abc" />
+        <item itemvalue="Apex Unit Tests.Klas1Test.revRecTest" />
+        <item itemvalue="Apex Unit Tests.Klas1Test.revIntTest" />
+        <item itemvalue="Apex Unit Tests.MathsTest" />
+        <item itemvalue="Apex Unit Tests.MathsTest.add" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91faabdd-a6ed-4a0a-8671-e1a18d8c3b8c" name="Default Changelist" comment="" />
+      <created>1569571338026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569571338026</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dev$TriggTest1_abc.null" NAME="dev Coverage Results" MODIFIED="1573047522689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="dev" CONNECTION_NAME="dev" CONNECTION_TYPE="MDAPI" />
+  </component>
+</project>

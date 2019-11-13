@@ -1,0 +1,296 @@
+<aura:component controller="ContactListController" description="x">
+
+
+    <!--    <lightning:listView  objectApiName="Account" listName="AllAccounts" showSearchBar="true"/>-->
+
+<!--    <lightning:buttonGroup >-->
+
+<!--        <lightning:button label="vvvvvv 1" />-->
+<!--        <lightning:button label="vvvvvv 1" />-->
+
+<!--    </lightning:buttonGroup>-->
+
+<!--    <lightning:buttonMenu >-->
+
+<!--        <lightning:button label="vvvvvv 1" />-->
+<!--        <lightning:button label="vvvvvv 1" />-->
+
+<!--    </lightning:buttonMenu >-->
+
+<!--    <lightning:button label="vvvvvv 1" />-->
+<!--    <lightning:button label="vvvvvv 1" />-->
+
+
+<!--    <lightning:buttonGroup >-->
+<!--        <lightning:button label="label 1" />-->
+<!--        <lightning:button label="label 2" />-->
+
+<!--    </lightning:buttonGroup>-->
+
+<!--    <lightning:buttonMenu iconName="standard:opportunity">-->
+
+<!--        <lightning:buttonGroup >-->
+<!--            <lightning:button label="label 1" />-->
+<!--            <lightning:button label="label 2" />-->
+
+<!--        </lightning:buttonGroup>-->
+
+<!--        <lightning:button label="label 1" />-->
+<!--        <lightning:button label="label 2" />-->
+<!--        <lightning:button label="label 3" />-->
+<!--        <lightning:button label="label 4" />-->
+<!--    </lightning:buttonMenu>-->
+
+
+    <aura:attribute name="checkBoxValues" type="List" default="['label' : 'Ross' ]"/>
+
+
+    <lightning:card title=""></lightning:card>
+
+    <lightning:listView listName="AllAccounts" objectApiName="Account" rows="10"/>
+
+
+    <lightning:accordion title="">
+
+        <lightning:accordionSection label="label 1">tekst 1</lightning:accordionSection>
+        <lightning:accordionSection label="label 2">tekst 2</lightning:accordionSection>
+    </lightning:accordion>
+
+
+
+
+
+    <lightning:listView objectApiName="Account" listName="AllAccounts"  rows="2"/>
+
+    <lightning:accordion title="title 1" activeSectionName="B">
+
+        <lightning:accordionSection label="label 1" title="t1" name="A">
+            abc
+        </lightning:accordionSection>
+
+        <lightning:accordionSection label="label 2" title="t2" name="B">
+            abc2
+        </lightning:accordionSection>
+
+    </lightning:accordion>
+
+
+    <lightning:card  >
+
+        <p>abcd</p>
+    </lightning:card>
+
+
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+
+    <lightning:listView listName="AllAccounts" objectApiName="Account"/>
+
+
+    <c:AccountPage></c:AccountPage>
+    <c:bigCard></c:bigCard>
+
+    <!--   buttons -->
+    <div aura:id="changeAllButtons">
+        <div id="id1">
+            <lightning:button label="show Contacts" onclick="{!c.doInit}"/>
+            <lightning:button label="show Accounts" onclick="{!c.doInit2}"/>
+            <lightning:button label="button 3" onclick="{!c.returnString}"/>
+            <lightning:button label="return Opportunities" onclick="{!c.retOpp}"/>
+            <lightning:button label="return Leads" onclick="{!c.retLeads}"/>
+            <lightning:button label="setAt" onclick="{!c.setAt}"/>
+            <lightning:button label="returnContacts" onclick="{!c.returnContacts}"/>
+            <!--    <lightning:button label="button 4" onclick="{!c.changeStyle}" />-->
+            <lightning:button label="return Alert" onclick="{!c.returnTwoAlerts}"/>
+            <lightning:button label="display Date" onclick="{!c.returnTwoAlerts}"/>
+
+            <lightning:button label="label1" onclick="{!c.f2}"/>
+            <lightning:button aura:id="changeButtonLabel" label="show/ hide inputs" onclick="{!c.f3}"/>
+            <lightning:button label="Hide everything" onclick="{!c.hideEverything}"/>
+            <lightning:button label="hide 2" onclick="{!c.hide2}"/>
+            <lightning:button label="enable Chatter" onclick="{!c.enableChatter}"/>
+            <!--            <lightning:button label="show publishers" onclick="component.set("{!v.publishersBool}", true);"/>-->
+
+            <lightning:button label="button 3" onclick=""/>
+            <lightning:button label="show only first 2 accounts" onclick="{!c.changeToAcc}"/>
+            <lightning:button label="show first 3 accounts" onclick="{!c.changeTo3Acc}"/>
+        </div>
+    </div>
+
+
+    <!--    <c:tabela></c:tabela>-->
+
+    <!--    <lightning:inputField value=""-->
+
+    <aura:attribute type="Boolean" name="publishersBool"/>
+
+    <!--    <aura:if isTrue="{!v.publishersBool}">-->
+    <!--        <c:publishers></c:publishers>-->
+    <!--    </aura:if>-->
+    <!--    <aura:attribute name="bool5" type="Boolean" default="true"/>-->
+    <!--    <aura:attribute name="enableChatter" type="Boolean"/>-->
+
+
+    <!--    <aura:if isTrue="{!v.enableChatter}">-->
+
+    <!--        <forceChatter:feed type="groups"/>-->
+    <!--    </aura:if>-->
+    <!--    &lt;!&ndash;    <c:appLauncher></c:appLauncher>&ndash;&gt;-->
+
+    <!--    <aura:if isTrue="{!v.bool5}">-->
+    <!--        <c:richText></c:richText>-->
+
+    <!--    </aura:if>-->
+
+    <!--    <c:card4></c:card4>-->
+
+    <aura:attribute name="bool3" type="Boolean"/>
+
+    <aura:if isTrue="{!v.bool3}">
+        <c:inputNameComponent></c:inputNameComponent>
+
+    </aura:if>
+
+    <lightning:button label="show smth" onclick="{!c.showSmth1}"/>
+
+    <lightning:button label="hide smth" onclick="{!c.hideSmth2}"/>
+
+    <aura:attribute type="Boolean" name="bool2"/>
+
+
+    <aura:renderIf isTrue="{!v.bool2}">
+        <c:dualListBox></c:dualListBox>
+        <c:accordions></c:accordions>
+
+        <c:dateComponent></c:dateComponent>
+    </aura:renderIf>
+
+
+    <lightning:dynamicIcon type="eq" option="play" alternativeText="Recording in progress"/>
+
+
+    <lightning:helptext
+            content="Your email address will be your login name"/>
+
+    <br/>
+    <hr/>
+    <c:buttons></c:buttons>
+
+    <br/>
+    <lightning:badge label=".  badge label  ."/>
+
+    <!--    <c:card2></c:card2>-->
+
+    <!--    <c:card1></c:card1>-->
+
+
+    <aura:attribute type="String" name="at1"/>
+
+    <aura:attribute type="Boolean" name="bool1"/>
+    <aura:attribute type="String" name="date1"/>
+    <p></p>
+
+
+    <!--    <aura:handler event="c:SearchKeyChange" action="{!c.searchKeyChange}"/>-->
+
+    <div aura:id="changeIt">Change Me!</div>
+    <br/>
+    <lightning:button onclick="{!c.applyCSS}" label="Add Style"/>
+    <lightning:button onclick="{!c.removeCSS}" label="Remove Style 1"/>
+    <lightning:button onclick="{!c.removeCSS2}" label="Remove All styles"/>
+
+    <lightning:button onclick="{!c.applyCSS2}" label="Add Style 2"/>
+    <lightning:button onclick="{!c.applyCSSToAll}" label="applyCSSToAll"/>
+    <!--    <lightning:button onclick="{!c.retValue}" label="return value"/>-->
+
+
+    <!--        <lightning:button label="button2"/>-->
+
+    <aura:attribute name="contacts" type="Contact[]"/>
+    <aura:attribute name="strings" type="String[]"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <aura:attribute name="at2" type="String"/>
+    <p id="id88" aura:id="id22">xxxx: {!v.at1} {!v.date1}</p>
+
+    <aura:attribute type="Integer" name="at3"/>
+
+    <ul id="id55">
+        <li>{!v.at3}</li>
+    </ul>
+
+
+    <ul>
+        <aura:iteration var="var2" items="{!v.strings}">
+
+            <p>{!var2}</p>
+            <p>{!var2}</p>
+        </aura:iteration>
+    </ul>
+
+
+    <!--    <ul>-->
+    <!--        <aura:iteration items="{!v.contacts}" var="c">-->
+    <!--        -->
+    <!--            -->
+    <!--        </aura:iteration>-->
+    <!--    </ul>-->
+
+
+    <div id="divToHide">
+        <ul>
+            <aura:iteration items="{!v.contacts}" var="contact">
+                <li>
+                    <!--                    <a href="{! '#/sObject/' + contact.Id + '/view'}">-->
+                    <a style="color:red" onmouseover="this.style='font-size:222px'" id="id45"
+                       href="{!'https://www.google.com/search?q=' + contact.Name}">
+                        <p>Name: {!contact.Name}, Email: {!contact.Email}</p>
+                        <p>{!contact.Phone}</p>
+                    </a>
+                </li>
+            </aura:iteration>
+        </ul>
+    </div>
+
+    <aura:if isTrue="{!v.bool1}">
+        <ul>
+            <aura:iteration items="{!v.contacts}" var="contact">
+                <li>
+                    <a href="{! '#/sObject/' + contact.Id + '/view'}">
+                        <p>Name: {!contact.Name}, Email: {!contact.Email}</p>
+                        <p>{!contact.Phone}</p>
+                    </a>
+                </li>
+            </aura:iteration>
+        </ul>
+    </aura:if>
+
+    <aura:if isTrue="{!v.bool1}">
+    </aura:if>
+
+
+    <!--    <ul>-->
+    <!--        <aura:iteration items="{!v.strings}" var="st">-->
+    <!--            <li>-->
+    <!--                123-->
+    <!--            </li>-->
+    <!--        </aura:iteration>-->
+    <!--    </ul>-->
+
+
+    <ul>
+        <li>{!v.strings}</li>
+        <li>{!v.strings[1]}</li>
+        <li>ab021</li>
+        <li>ab031</li>
+    </ul>
+
+
+</aura:component>
+

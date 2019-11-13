@@ -1,0 +1,7 @@
+<!--
+ - Created by mparzych004 on 30.09.2019.
+ -->
+
+<apex:component id="VffC">
+    <p>abc2</p>
+</apex:component>

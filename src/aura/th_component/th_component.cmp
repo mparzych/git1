@@ -1,0 +1,15 @@
+<!--
+ - Created by mparzych004 on 06.11.2019.
+ -->
+
+<aura:component description="th_component" implements="force:appHostable">
+
+    <c:acc1></c:acc1>
+<!--    <c:campingHeader ></c:campingHeader>-->
+
+<!--    <c:campingList></c:campingList>-->
+<!--    <c:campingListItem></c:campingListItem>-->
+
+<!--    <c:layout1></c:layout1>-->
+
+</aura:component>

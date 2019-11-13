@@ -1,0 +1,21 @@
+<!--
+ - Created by mparzych004 on 12.11.2019.
+ -->
+
+<aura:component description="lc1" implements="force:appHostable">
+    <p>abc</p>
+    <lightning:button label="label 1" onclick=""/>
+
+    <lightning:card iconName="standard:opportunity">
+    <p>abc1</p>
+    <p>abc2</p>
+    <p>abc3</p>
+    </lightning:card>
+
+    <lightning:icon iconName="standard:opportunity"/>
+
+<!--    <hr/>-->
+
+    <lightning:listView objectApiName="Account" listName="AllAccounts" rows="15"/>
+
+</aura:component>

@@ -1,0 +1,45 @@
+
+
+<apex:component id="Vf99c" >
+
+    <script>
+
+//        function funcAlert() {
+//            alert("pageBlockSection");
+//        }
+//
+//        function buttonAlertFunc() {
+//            alert("button");
+//        }
+
+    </script>
+
+    <p>abc {!at1}</p>
+
+    <apex:includeScript value="{!$Resource.jsVf99}"/>
+
+    <apex:includeScript value="{!$Resource.Vf991}"/>
+
+
+    <apex:attribute name="at1" type="String" description="at1"/>
+
+    <apex:form>
+        <apex:pageBlock>
+
+            <apex:pageBlockButtons title="t1">
+                <apex:commandButton value="button1"/>
+
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection onClick="funcAlert()">
+
+                <apex:commandButton onClick="buttonAlertFunc()" value="button2"/>
+                <apex:commandButton onClick="f1()" value="button3"/>
+                <apex:commandButton value="button4"/>
+            </apex:pageBlockSection>
+
+        </apex:pageBlock>
+
+    </apex:form>
+
+</apex:component>

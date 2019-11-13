@@ -1,0 +1,7 @@
+<!--
+ - Created by mparzych004 on 12.11.2019.
+ -->
+
+<apex:page id="VfExtension1" standardController="Position__C" extensions="">
+
+</apex:page>

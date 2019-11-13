@@ -1,0 +1,7 @@
+<!--
+ - Created by mparzych004 on 10.10.2019.
+ -->
+
+<apex:page id="Vf11" standardController="User" sideBar="false">
+    <p>abc: {!User.FirstName}</p>
+</apex:page>

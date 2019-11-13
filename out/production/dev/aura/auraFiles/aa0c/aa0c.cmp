@@ -1,0 +1,10 @@
+<!--
+ - Created by mparzych004 on 11.10.2019.
+ -->
+
+<aura:component description="aa0c">
+    <aura:attribute name="at1" type="String"/>
+
+    <p onclick="{!c.ac}">abc : {!v.at1}</p>
+
+</aura:component>

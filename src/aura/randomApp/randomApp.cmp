@@ -1,0 +1,14 @@
+<!--
+ - Created by mparzych004 on 08.11.2019.
+ -->
+
+<aura:component description="randomApp" implements="force:appHostable">
+    <lightning:button label="label 1" type="reset" />
+    <lightning:button label="label 1" type="submit" />
+    <lightning:button label="label 1" type="button" onclick="{!c.f}" />
+
+
+
+
+
+</aura:component>

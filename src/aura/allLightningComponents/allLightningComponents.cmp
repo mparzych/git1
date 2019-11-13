@@ -1,0 +1,43 @@
+<!--
+ - Created by mparzych004 on 30.10.2019.
+ -->
+
+<aura:component description="allLightningComponents" implements="force:appHostable">
+    <p>abc</p>
+
+    <c:accordionGUI></c:accordionGUI>
+    <lightning:badge label="label 1"/>
+
+
+    <c:buttonGroup></c:buttonGroup>
+
+    <c:buttonMenu></c:buttonMenu>
+
+    <lightning:card iconName="standard:opportunity">
+    <p>abc 1</p>
+    </lightning:card>
+
+    <c:checkBox1></c:checkBox1>
+
+    <p><lightning:clickToDial value="14155555551"/></p>
+
+    <c:basicComboBox></c:basicComboBox>
+    <c:comboBoxTo1000></c:comboBoxTo1000>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <c:search></c:search>
+
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <c:treeGrid></c:treeGrid>
+
+</aura:component>

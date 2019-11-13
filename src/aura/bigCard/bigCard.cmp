@@ -1,0 +1,15 @@
+<!--
+ - Created by mparzych004 on 29.10.2019.
+ -->
+
+<aura:component description="bigCard">
+
+    <lightning:card iconName="standard:opportunity">
+        <p>Big Card</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+    </lightning:card>
+</aura:component>
+

@@ -1,0 +1,10 @@
+<!--
+ - Created by mparzych004 on 07.10.2019.
+ -->
+
+<aura:documentation>
+    <aura:description>Documentation for accComp</aura:description>
+    <aura:example name="accComp" ref="accComp" label="accComp">
+        Example for accComp
+    </aura:example>
+</aura:documentation>

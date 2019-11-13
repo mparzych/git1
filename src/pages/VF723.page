@@ -1,0 +1,18 @@
+
+
+<apex:page id="VF723" standardController="Contact" recordSetVar="c">
+
+    <apex:form >
+
+        <apex:pageBlock title="tabela" >
+
+            <apex:pageBlockTable value="{!c}" var="v1"  title="tabela 2">
+
+                <apex:column value="{!v1.Phone}" title="Telefon" />
+                <apex:column value="{!v1.Name}"/>
+                <apex:column value="{!v1.FirstName}"/>
+
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

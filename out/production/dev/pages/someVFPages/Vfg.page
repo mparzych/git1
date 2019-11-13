@@ -1,0 +1,8 @@
+<!--
+ - Created by mparzych004 on 27.09.2019.
+ -->
+
+<apex:page id="Vfg">
+<c:Vcomp1></c:Vcomp1>
+</apex:page>
+

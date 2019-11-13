@@ -1,0 +1,9 @@
+<apex:page id="ApexClassVF1" controller="ApexClassVF" tabStyle="Account">
+    <apex:form>
+        <apex:pageBlock >
+            <apex:inputField value="{!account.name}"/>
+        </apex:pageBlock>
+
+    </apex:form>
+
+</apex:page>

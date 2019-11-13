@@ -1,0 +1,45 @@
+<!--
+ - Created by mparzych004 on 06.11.2019.
+ -->
+
+<aura:component description="acc1">
+    <lightning:accordion class="">
+
+        <lightning:accordionSection >content 1</lightning:accordionSection>
+        <lightning:accordionSection >content 2</lightning:accordionSection>
+        <lightning:accordionSection >content 3</lightning:accordionSection>
+    </lightning:accordion>
+
+    <lightning:button label="label 1"></lightning:button>
+    <lightning:button label="label 2"></lightning:button>
+    <lightning:button label="label 3"></lightning:button>
+
+
+    <br/>
+    br
+    menu
+    <lightning:buttonMenu >
+        <lightning:button label="label 1"></lightning:button>
+        <lightning:button label="label 2"></lightning:button>
+        <lightning:button label="label 3"></lightning:button>
+    </lightning:buttonMenu>
+
+    <br/>
+    br
+
+    <lightning:buttonGroup >
+b
+        <lightning:button onclick="{!c.alertF}" label="label 1"></lightning:button>
+        <lightning:button label="label 2"></lightning:button>
+        <lightning:button label="label 3"></lightning:button>
+
+
+    </lightning:buttonGroup>
+
+    <lightning:avatar size="x-small" src="/Downloads/wallpap1.jpg" initials="JD" fallbackIconName="standard:person_account" alternativeText="Jane Doe" class="slds-m-right_small"/>
+
+
+    <c:input1></c:input1>
+
+</aura:component>
+

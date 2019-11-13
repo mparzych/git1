@@ -1,0 +1,54 @@
+
+
+.THIS {
+    /* background-color: white;  */
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .THIS li {
+     background-color: white;
+     border-bottom: solid 1px #DDDDDD;
+     padding: 8px;
+ }
+
+ .THIS p {
+     margin: 4px;
+ }
+
+p.THIS#id88 {
+     color: brown;
+ }
+
+ .THIS#id1.styleNr11 {
+     position: absolute;
+     left: 90%;
+ }
+ .THIS.changeMe {
+     background-color:brown;
+     width:400px;
+ }
+.THIS.change {
+    background-color:blue;
+    width: 700px;
+}
+.THIS.changeStyle {
+    background-color: gray;
+    width: 230px;
+}
+.THIS.all {
+    font-size: 44px;
+    border: 3px solid brown;
+}
+.THIS#id45 {
+    color: yellow;
+}
+.THIS#qazwsx {
+    color:green;
+    background-color: yellow;
+}
+.THIS.changeBackground {
+    background-color: brown;
+}
+

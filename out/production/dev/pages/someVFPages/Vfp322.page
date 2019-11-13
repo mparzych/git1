@@ -1,0 +1,14 @@
+<!--
+ - Created by mparzych004 on 27.09.2019.
+ -->
+
+<apex:page id="Vfp322">
+
+    <c:Vcb>
+    </c:Vcb>
+    <style>
+        * {
+            background-color: white;
+        }
+    </style>
+</apex:page>

@@ -1,0 +1,60 @@
+<apex:page id="vf123" lightningStylesheets="true" standardController="Contact">
+
+    <script>
+
+
+        function f1() {
+            alert("abc");
+        }
+
+    </script>
+
+<!--    <apex:detail subject="{!account.ownerId}" relatedList="false" title="false"/>-->
+
+
+<!--        <p>abc: {!Contact.FirstName}</p>-->
+
+
+
+<!--    <apex:tabPanel switchType="client" selectedTab="name2" id="theTabPanel">-->
+<!--        <apex:tab label="One" name="name1" id="tabOne">content for tab one</apex:tab>-->
+<!--        <apex:tab label="Two" name="name2" id="tabTwo">content for tab two</apex:tab>-->
+<!--    </apex:tabPanel>-->
+
+    <br/>
+    <br/>
+    <br/>
+
+<!--    <apex:tabPanel switchType="server"  selectedTab="name2" id="theTabPanel">-->
+
+<!--        <apex:tab label="One" name="name1" id="tabOne">Content tab 1</apex:tab>-->
+<!--        <apex:tab label="Two" name="name2" id="tabTwo">Content tab 1</apex:tab>-->
+<!--    </apex:tabPanel>-->
+
+    <apex:tabPanel switchType="client" selectedTab="name2" id="theTabPanel">
+
+        <apex:tab label="One" name="name1" id="tabOne">content for tab one</apex:tab>
+        <apex:tab label="Two" name="name2" id="tabTwo">content for tab two</apex:tab>
+    </apex:tabPanel>
+
+    <apex:form>
+        <apex:pageBlock title="pageBlock">
+            <apex:pageBlockSection title="pageBlock section">
+                <apex:inputField value="{!Contact.FirstName}"/>
+                <apex:inputField value="{!Contact.LastName}"/>
+                <apex:inputField value="{!Contact.Languages__c}"/>
+
+
+
+
+            </apex:pageBlockSection>
+
+            <apex:commandButton value="Save changes" action="{!save}"/>
+
+<!--            <apex:detail subject="{!}"-->
+        </apex:pageBlock>
+    </apex:form>
+
+</apex:page>
+
+

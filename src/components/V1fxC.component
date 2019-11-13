@@ -1,0 +1,32 @@
+<apex:component id="V1fxC">
+    <p>abc</p>
+
+    <apex:attribute name="at1" type="String"  description="ab" default="ccccccc"/>
+
+    <apex:attribute name="myValue" description="This is the value for the component." type="String" required="false"/>
+
+
+        <p>abc: {!at1}</p>
+
+
+    <apex:form>
+
+
+        <apex:pageBlock>
+
+            <apex:pageBlockButtons>
+
+                <apex:commandButton value="abc 1"/>
+                <apex:commandButton value="abc 2"/>
+                <apex:commandButton value="abc 3"/>
+            </apex:pageBlockButtons>
+
+
+        </apex:pageBlock>
+
+
+<!--        <apex:input value="{!at1}" id="id11"/>-->
+    </apex:form>
+
+
+</apex:component>

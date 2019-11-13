@@ -1,0 +1,26 @@
+<!--&lt;!&ndash;-->
+<!-- - Created by mparzych004 on 25.10.2019.-->
+<!-- &ndash;&gt;-->
+
+<!--<apex:page id="vf345" standardController="Account" recordSetVar="accou">-->
+
+<!--    <apex:form>-->
+
+<!--        <apex:pageBlock >-->
+
+
+<!--            <apex:pageBlockTable value="{!accou}" var="ac">-->
+
+<!--                <apex:column value="{!ac.Id}"/>-->
+<!--                <apex:column value="{!ac.Phone}"/>-->
+<!--            </apex:pageBlockTable>-->
+<!--        </apex:pageBlock>-->
+
+<!--        <apex:pageBlockButtons >-->
+
+<!--            <apex:commandButton value="First" action="{!first}"/>-->
+<!--        </apex:pageBlockButtons>-->
+
+<!--    </apex:form>-->
+
+<!--</apex:page>-->

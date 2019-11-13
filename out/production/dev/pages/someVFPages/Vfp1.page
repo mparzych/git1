@@ -1,0 +1,59 @@
+<!--
+ - Created by mparzych004 on 08.10.2019.
+ -->
+
+<apex:page id="Vfp1" standardController="Account">
+
+    <style>
+        #button1 {
+            font-size: 14px;
+            color: greenyellow;
+            left: 4%;
+            position: absolute;
+            background-color: green;
+
+        }
+        #button2 {
+            position: absolute;
+            top: 40%;
+            left: 10%;
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  cursor: pointer;
+        }
+    </style>
+
+    <div id="id1">
+        <apex:form>
+            <apex:pageBlock>
+                <apex:pageBlockButtons>
+
+                    <div id="button1">
+                    <apex:commandButton title="t1" value="Nacisnij"/>
+                    </div>
+
+
+                </apex:pageBlockButtons>
+
+
+                <apex:pageBlockButtons>
+
+
+                </apex:pageBlockButtons>
+
+
+            </apex:pageBlock>
+        </apex:form>
+    </div>
+
+    <button id="button2" >Nacisnij 2
+    </button>
+</apex:page>

@@ -1,0 +1,15 @@
+<!--
+ - Created by mparzych004 on 21.10.2019.
+ -->
+
+<aura:component description="x33" implements="force:appHostable">
+    <p>abc</p>
+    <aura:attribute name="parentAttribute" type="String" default="abcdefgh" description="desc 1"/>
+    <p>abc: {!v.parentAttribute}</p>
+
+    <c:x33Button />
+
+    <aura:method description="sample method" name="metoda1" action="addFunction" />
+
+
+</aura:component>

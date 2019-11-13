@@ -1,0 +1,14 @@
+
+
+<aura:component description="card12">
+
+    <div id="id1">
+    <lightning:card  title="t1">
+
+        <p>abc1</p>
+        <p>abc2</p>
+        <p>abc3</p>
+        <p>abc4</p>
+    </lightning:card>
+    </div>
+</aura:component>

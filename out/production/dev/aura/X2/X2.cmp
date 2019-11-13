@@ -1,0 +1,12 @@
+<!--
+ - Created by mparzych004 on 15.10.2019.
+ -->
+
+<aura:component description="X2" implements="force:appHostable">
+<!--    <c:ContactList ></c:ContactList>-->
+
+    <c:x></c:x>
+
+
+
+</aura:component>

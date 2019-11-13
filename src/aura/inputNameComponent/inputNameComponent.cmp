@@ -1,0 +1,78 @@
+
+
+<aura:component description="inputNameComponent">
+    <aura:attribute name="salutationOptions" type="List" default="[
+        {'label': 'None', 'value': 'None'},
+        {'label': 'Mr.', 'value': 'Mr.'},
+        {'label': 'Ms.', 'value': 'Ms.'},
+        {'label': 'Mrs.', 'value': 'Mrs.'},
+        {'label': 'Dr.', 'value': 'Dr.'},
+        {'label': 'Prof.', 'value': 'Prof.'},
+    ]"/>
+    <aura:attribute name="fields" type="List" default="['firstName', 'lastName']"/>
+    <div>
+        <lightning:inputName
+                aura:id="input"
+                label="Default Input Name Field"
+                firstName="John"
+                middleName="Middleton"
+                lastName="Doe"
+                informalName="Jo"
+                suffix="The 3rd"
+                salutation="Mr."
+                options="{!v.salutationOptions}"
+        />
+        <lightning:inputName
+                aura:id="input"
+                label="Input Name Field with field level help"
+                firstName="John"
+                middleName="Middleton"
+                lastName="Doe"
+                informalName="Jo"
+                suffix="The 3rd"
+                salutation="Mr."
+                options="{!v.salutationOptions}"
+                fieldLevelHelp="Help Text for input-name field"
+        />
+        <br/><br/>
+        <lightning:inputName
+                aura:id="input1"
+                label="Required Input Name Field"
+                required="true"
+                firstName="John"
+                middleName="Middleton"
+                lastName="Doe"
+                informalName="Jo"
+                suffix="The 3rd"
+                salutation="Mr."
+                options="{!v.salutationOptions}"
+                fieldsToDisplay="{!v.fields}"
+        />
+        <br/><br/>
+        <lightning:inputName
+                aura:id="input2"
+                label="Readonly Input Name Field"
+                readonly="true"
+                firstName="John"
+                middleName="Middleton"
+                lastName="Doe"
+                informalName="Jo"
+                suffix="The 3rd"
+                salutation="Mr."
+                options="{!v.salutationOptions}"
+        />
+        <br/><br/>
+        <lightning:inputName
+                aura:id="input3"
+                label="Disabled Input Name Field"
+                disabled="true"
+                firstName="John"
+                middleName="Middleton"
+                lastName="Doe"
+                informalName="Jo"
+                suffix="The 3rd"
+                salutation="Mr."
+                options="{!v.salutationOptions}"
+        />
+    </div>
+</aura:component>

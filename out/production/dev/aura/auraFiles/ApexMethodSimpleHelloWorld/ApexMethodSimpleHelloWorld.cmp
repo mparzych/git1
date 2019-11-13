@@ -1,0 +1,11 @@
+<aura:component controller="HelloWorldApexMethod">
+
+    <aura:attribute name="StringData" type="String"></aura:attribute>
+
+    <div class="slds-button-group" role="group">
+        <lightning:button label="fetch String" name="fetch String" aura:id="fetchString" onclick="{!c.fetchString}"></lightning:button>
+
+    </div>
+    <br/>
+    Your input from apex is {!v.StringData}
+</aura:component>

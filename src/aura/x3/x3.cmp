@@ -1,0 +1,9 @@
+<!--
+ - Created by mparzych004 on 18.10.2019.
+ -->
+
+<aura:component description="x3" implements="force:appHostable">
+
+    <c:x></c:x>
+
+</aura:component>

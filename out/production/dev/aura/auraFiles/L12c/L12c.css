@@ -1,0 +1,14 @@
+/**
+ * Created by mparzych004 on 07.10.2019.
+ */
+
+button.THIS {
+    background-color: green;
+}
+.cl1.THIS {
+    background-color: blue;
+}
+.cl1.cl2.THIS {
+    font-size: 22px;
+    background-color: brown;
+}

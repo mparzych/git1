@@ -1,0 +1,10 @@
+<apex:page id="vf1111" standardController="Account">
+
+    <apex:form>
+        <apex:pageBlock>
+            <apex:
+
+        </apex:pageBlock>
+    </apex:form>
+
+</apex:page>

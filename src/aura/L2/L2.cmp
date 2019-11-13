@@ -1,0 +1,12 @@
+<!--
+ - Created by mparzych004 on 08.11.2019.
+ -->
+
+<aura:component description="L2" implements="force:appHostable">
+    <aura:registerEvent name="sampleComponentEvent" type="c:l2Event"/>
+    <aura:handler name="sampleComponentEvent" action="{!c.handleSampleEvent}"/>
+
+    <p>{!}</p>
+
+    <p>abc</p>
+</aura:component>

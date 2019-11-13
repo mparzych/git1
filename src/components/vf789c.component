@@ -1,0 +1,12 @@
+<!--
+ - Created by mparzych004 on 25.10.2019.
+ -->
+
+<apex:component id="vf789c" controller="VFController1">
+
+    <apex:attribute name="randomString" type="String" description="desc 1" default="abcd efgh"/>
+
+    <p>abc:{!randomString}</p>
+    <p>abc:{!$VF}</p>
+
+</apex:component>

@@ -1,0 +1,5 @@
+
+<aura:event type="COMPONENT" description="l2Event">
+    <aura:attribute name="nazwaAtrybutu" type="String"/>
+
+</aura:event>

@@ -1,0 +1,13 @@
+<!--
+ - Created by mparzych004 on 04.10.2019.
+ -->
+
+<aura:component description="X1c">
+    <aura:attribute  name="name1" type="String" />
+    <p>abc: {!v.name1}</p>
+
+    <div> {!v.name1}</div>
+
+    <lightning:button label="button1" onclick="{!c.f1}"/>
+
+</aura:component>

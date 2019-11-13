@@ -1,0 +1,57 @@
+<apex:page id="Vf99" standardController="Contact"
+           lightningStylesheets="true" >
+    <!--    <c:Vf99c></c:Vf99c>-->
+
+    <c:vf134c></c:vf134c>
+
+
+
+
+<!--    <apex:variable-->
+
+    <apex:panelBar>
+
+        <apex:panelBarItem label="Item 1">data 1</apex:panelBarItem>
+
+        <apex:panelBarItem label="Item 2">data 2</apex:panelBarItem>
+
+        <apex:panelBarItem label="Item 3">data 3</apex:panelBarItem>
+
+    </apex:panelBar>
+
+    <p>abc: {!$User.FirstName}</p>
+
+
+
+
+
+    <apex:form>
+        <apex:pageBlock>
+
+<!--            <apex:pageBlockButtons>-->
+<!--                <apex:commandButton value="Save chnages" action="{!save}"/>-->
+<!--            </apex:pageBlockButtons>-->
+
+
+
+            <apex:pageBlockSection title="section1"  >
+
+                <apex:inputField value="{!Contact.FirstName}"/>
+                <apex:inputField value="{!Contact.LastName}"/>
+                <apex:inputField value="{!Contact.Email}"/>
+                <apex:inputField value="{!Contact.Birthdate}"/>
+                <apex:inputField value="{!Contact.Email}"/>
+                <apex:inputField value="{!Contact.Email}"/>
+                <p>First Name: {!$User.FirstName}</p>
+                <apex:commandButton value="Save chnages" action="{!save}"/>
+
+
+            </apex:pageBlockSection>
+
+
+        </apex:pageBlock>
+    </apex:form>
+
+<!--    <apex:outputText value="(include) This is text from another page."/>-->
+
+</apex:page>

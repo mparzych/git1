@@ -1,0 +1,18 @@
+<!--
+ - Created by mparzych004 on 07.11.2019.
+ -->
+
+<aura:component description="l1" implements="force:AppHostable" >
+
+    <aura:attribute  name="at1" type="String" default="Strings"  />
+    <lightning:button label="{!v.at1}" name="{!v.at1}" />
+
+
+    <aura:registerEvent name='testEvent' type='c:compEvent' />
+
+
+
+
+
+
+</aura:component>

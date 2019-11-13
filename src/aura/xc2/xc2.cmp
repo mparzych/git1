@@ -1,0 +1,9 @@
+<!--
+ - Created by mparzych004 on 15.10.2019.
+ -->
+
+<aura:component description="xc2">
+    <ltng:require scripts="{!join(',',
+    $Resource.myLightingComponent + '/jquery-3.3.1.min.js',
+    $Resource.myLightingComponent+ '/jquery.nav.js')}" afterScriptsLoaded="{!c.doInit}"/>
+</aura:component>

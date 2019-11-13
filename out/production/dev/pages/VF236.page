@@ -1,0 +1,34 @@
+
+<apex:page standardController="Account" recordSetVar="ac" >
+
+    <apex:form title="forma">
+
+        <apex:pageBlock title="pageBlock">
+
+            <apex:pageBlockTable value="{!ac}" var="v1">
+
+
+
+                <apex:column title="tytul" value="{!v1.Name}"/>
+                <apex:column value="{!v1.Phone}"/>
+                <apex:column value="{!v1.Id}"/>
+
+
+
+            </apex:pageBlockTable>
+
+
+
+            <apex:pageBlockSection >
+
+                <apex:inputField value="{!Account.Name}" label="abc" />
+
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+
+                <apex:commandButton action="{!save}"  value="Save it"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+
+</apex:page>

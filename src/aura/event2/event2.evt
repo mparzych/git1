@@ -1,0 +1,10 @@
+<!--
+ - Created by mparzych004 on 25.10.2019.
+ -->
+
+<aura:event type="COMPONENT" description="event2">
+    <aura:attribute name="booleanValue" type="Boolean"/>
+
+
+
+</aura:event>

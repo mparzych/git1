@@ -1,0 +1,6 @@
+<!--
+ - Created by mparzych004 on 11.10.2019.
+ -->
+<aura:component implements="force:appHostable">
+    <forceChatter:feed type="Home"/>
+</aura:component>

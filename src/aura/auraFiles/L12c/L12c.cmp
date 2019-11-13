@@ -1,0 +1,17 @@
+<!--
+ - Created by mparzych004 on 07.10.2019.
+ -->
+
+<aura:component description="L12c" >
+<!--    <lightning:buttonGroup class="cl1">-->
+<!--        <lightning:button class="cl2" label="Refresh" />-->
+<!--        <lightning:button  label="Edit" />-->
+<!--        <lightning:button label="Save" />-->
+<!--    </lightning:buttonGroup>-->
+
+<!--    <lightning:button label="Refresh" />-->
+<!--    <lightning:button label="Edit" />-->
+<!--    <lightning:button label="Save" />-->
+
+
+</aura:component>

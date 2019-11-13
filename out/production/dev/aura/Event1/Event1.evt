@@ -1,0 +1,9 @@
+<!--
+ - Created by mparzych004 on 18.10.2019.
+ -->
+
+<aura:event type="COMPONENT" description="Event1">
+    <aura:attribute name="message" type="String"/>
+
+
+</aura:event>

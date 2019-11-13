@@ -1,0 +1,85 @@
+<!--
+ - Created by mparzych004 on 02.10.2019.
+ -->
+
+<apex:page id="CookieDisplayer">
+
+    <button id="id1" onclick="ff()">button</button>
+    <button onclick="ff2()">button2</button>
+
+    <p id="id1"></p>
+    <p id="id2"></p>
+
+<!--    <form action="abc">-->
+
+<!--        <input type="text">-->
+<!--    </form>-->
+
+    <select >
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+
+
+
+
+    <script>
+        function ff() {
+            document.getElementById("id1").innerHTML= document.cookie;
+        }
+
+        function ff2() {
+            document.getElementById("id2").innerHTML= document.color;
+        }
+        var x = 0;
+        function f3() {
+            if (x % 4 == 0) {
+                document.getElementById('id1').style.fontSize='35px';
+            }
+            else if (x % 2 == 0 ) {
+                f5();
+            }
+            else {
+                 document.getElementById('id1').style.fontSize='15px';
+            }
+            ++x;
+        }
+
+        function f5() {
+            setTimeout(alert('abc'), 1000);
+        }
+
+    </script>
+
+    <button onclick="f3()">button 3</button>
+
+    <p>1<em>abc</em>2</p>
+    <p>abc</p>
+    <i>abc</i>
+    <small>abc</small>
+    <strike>abc</strike>
+    <marquee behavior="" direction="">abc2</marquee>
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>Cell A</td>
+            <td>Cell B</td>
+        </tr>
+    </table>
+
+
+    <h1 id="id5" onmouseover="alert('abc')"  onclick="document.getElementById('id5').style.fontSize='55px'">abc</h1>
+
+</apex:page>

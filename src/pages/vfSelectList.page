@@ -1,0 +1,37 @@
+<!-- Page: -->
+<apex:page controller="sampleCon">
+
+
+    <!--    <apex:inputField value="{!usr}"/>-->
+    <!--    <apex:outputPanel id="helpWorkstationHeight"-->
+    <!--                      rendered="{!$Setup.AccountId}">-->
+    <!--        Enter the height for your workstation in inches, measured from the-->
+    <!--        floor to top of the work surface.-->
+    <!--    </apex:outputPanel>-->
+
+    <apex:form>
+        <apex:commandButton value="v"/>
+        <apex:commandLink value="v1" />
+    </apex:form>
+
+
+    <apex:form>
+        <apex:selectList value="{!countries}" multiselect="true">
+            <apex:selectOptions value="{!items}"/>
+        </apex:selectList>
+        <p/>
+
+        <apex:commandButton value="Test" action="{!test}" rerender="out" status="status"/>
+    </apex:form>
+
+    <apex:outputPanel id="out">
+        <apex:actionstatus id="status" startText="testing...">
+            <apex:facet name="stop">
+                <apex:outputPanel>
+                    <p>You have selected:</p>
+                    <apex:dataList value="{!countries}" var="c">{!c}</apex:dataList>
+                </apex:outputPanel>
+            </apex:facet>
+        </apex:actionstatus>
+    </apex:outputPanel>
+</apex:page>

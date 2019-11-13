@@ -1,0 +1,10 @@
+<apex:page standardController="Account" recordSetVar="tutorial"
+           tabStyle="account" sidebar="false">
+    <apex:form>
+        <apex:pageBlock>
+            <apex:pageBlockTable value="{!tutorial}" var="a">
+                <apex:column value="{!a.name}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

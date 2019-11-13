@@ -1,0 +1,44 @@
+<!--
+ - Created by mparzych004 on 07.10.2019.
+ -->
+
+<aura:component description="Ex1">
+
+<!--    <lightning:layout >-->
+
+<!--        <lightning:layoutItem >-->
+
+<!--            -->
+<!--        </lightning:layoutItem>-->
+<!--    </lightning:layout>-->
+
+
+    <c:buttons></c:buttons>
+    <div>    <c:buttonMenu></c:buttonMenu>
+    </div>
+    <br/>
+
+
+    <lightning:layoutItem >
+
+        <lightning:icon iconName="standard:sca11n_card" alternativeText="My Expenses"/>
+        <lightning:icon iconName="standard:scan_card" alternativeText="My Expenses"/>
+    </lightning:layoutItem>
+    <lightning:layoutItem >
+        <lightning:icon iconName="" alternativeText="My Expenses"/>
+        <lightning:icon />
+        <lightning:icon iconName="standard:scan_card" alternativeText="My Expenses"/>
+    </lightning:layoutItem>
+
+    <lightning:icon iconName="standard:scan_card" alternativeText="My Expenses"/>
+    <lightning:icon iconName="standard:scan_card" alternativeText="My Expenses"/>
+    <lightning:icon iconName="standard:scan_card" alternativeText="My Expenses"/>
+
+
+    <lightning:layout >
+
+        <lightning:layoutItem >
+        <lightning:icon iconName="standard:scan_card" alternativeText="My Expenses"/>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>

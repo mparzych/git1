@@ -1,0 +1,92 @@
+<aura:component description="AccountPage" implements="force:AppHostable" controller="ContactListController">
+
+
+    <aura:attribute name="accounts" type="Account[]"/>
+    <lightning:button onclick="{!c.changeAcc}" label="set aacounts"/>
+    <aura:attribute name="counter" type="Integer" default="1"/>
+
+    <aura:attribute name="bool1" type="Boolean" default="false"/>
+
+    <aura:attribute name="options" type="List" default="[
+    {'label': 'New', 'value': 'new'},
+    {'label': 'In Progress', 'value': 'inProgress'},
+    {'label': 'Finished', 'value': 'finished'},
+    ]"/>
+
+
+<!--    <h1>combobox:</h1>-->
+<!--    <lightning:combobox name="progress" label="Status" value="inProgress" placeholder="Select Progress" options="{! v.options }" onchange="{! c.handleChange }"/>-->
+
+
+
+<!--    <c:datatable columns=""></c:datatable>-->
+
+    <aura:if isTrue="{!v.bool1}">
+        <p>Selected</p>
+    </aura:if>
+
+    <!--    <lightning:listView aura:id="listViewAccounts" listName="AllAccounts" objectApiName="Account" />-->
+<!--    <lightning:listView aura:id="listViewAccounts"-->
+<!--                        objectApiName="Account"-->
+<!--                        listName="AllAccounts"-->
+<!--                        rows="5"-->
+<!--                        showSearchBar="true"-->
+<!--                        showActionBar="false"-->
+<!--                        enableInlineEdit="true"-->
+<!--                        showRowLevelActions="false"-->
+<!--    />-->
+
+
+
+<!--    <aura:handler name="init" value="{!this}" action="{!c.init}" />-->
+<!--    <aura:attribute name="items" type="Object" access="PRIVATE"/>-->
+
+<!--    <div id="tree1">-->
+<!--    <lightning:tree items="{! v.items }" header="Roles"/>-->
+<!--    </div>-->
+
+    <lightning:card iconName="standard:account" title="Accounts"/>
+    <div id="id1">
+        <lightning:button label="New"/>
+
+
+    </div>
+    <lightning:button variant="destructive" label="Destructive" title="Destructive action" onclick="{! c.handleClick }"/>
+
+<!--    <lightning:listView aura:id="listViewAccounts" listName="AllAccounts" objectApiName="Account" rows="5" />-->
+
+    <br/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <lightning:listView aura:id="listViewAccounts" listName="AllAccounts" objectApiName="Account" rows="7"/>
+
+    <br/>
+    <hr/>
+    <hr/>
+    <hr/>
+
+    <div id="id2">
+
+        <lightning:button label="Import" onclick="{!c.increment}"/>
+
+
+    </div>
+
+    <ul>
+        <aura:iteration items="{!v.accounts}" var="contact">
+            <li>
+                <!--                    <a href="{! '#/sObject/' + contact.Id + '/view'}">-->
+                <a style="color:red" onmouseover="this.style='font-size:222px'" id="id45"
+                   href="{!'https://www.google.com/search?q=' + contact.Name}">
+                    <p> {!v.counter} {!c.count}. Name: {!contact.Name}, Email: {!contact.Email} </p>
+                    <p>{!contact.Phone}</p>
+                </a>
+            </li>
+        </aura:iteration>
+    </ul>
+
+    <c:mapComponent ></c:mapComponent>
+<!--    <c:map1></c:map1>-->
+
+</aura:component>

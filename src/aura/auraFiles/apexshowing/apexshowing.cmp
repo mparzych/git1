@@ -1,0 +1,8 @@
+<!--
+ - Created by mparzych004 on 11.10.2019.
+ -->
+
+<aura:component description="apexshowing" controller="LightController">
+    <aura:attribute name="stringData" type="String"/>
+    <lightning:button label="fetch string" name="fetch" aura
+</aura:component>

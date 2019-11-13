@@ -1,0 +1,9 @@
+<!--
+ - Created by mparzych004 on 07.11.2019.
+ -->
+
+<aura:event type="APPLICATION" description="xEvent1">
+    <aura:attribute name="nazwaAtrybutu" type="String" />
+
+
+</aura:event>

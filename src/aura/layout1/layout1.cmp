@@ -1,0 +1,13 @@
+<!--
+ - Created by mparzych004 on 06.11.2019.
+ -->
+
+<aura:component description="layout1">
+
+    <lightning:layout >
+
+        <lightning:layoutItem size="10" class="">abc2</lightning:layoutItem>
+        <p>abc</p>
+    </lightning:layout>
+
+</aura:component>

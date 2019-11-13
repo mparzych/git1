@@ -1,0 +1,5 @@
+
+
+function alertFunc() {
+    alert("abc");
+}

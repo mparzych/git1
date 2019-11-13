@@ -1,0 +1,7 @@
+<!--
+ - Created by mparzych004 on 08.11.2019.
+ -->
+
+<aura:event type="COMPONENT" description="z1">
+    <aura:attribute name="z1Atrybut" type="String"/>
+</aura:event>

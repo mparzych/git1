@@ -1,0 +1,18 @@
+<!--
+ - Created by mparzych004 on 30.10.2019.
+ -->
+
+<aura:component description="buttonGroup">
+
+    <lightning:buttonGroup class="">
+
+        <lightning:button iconName="standard:opportunity" label="label 0"/>
+        <lightning:button iconName="standard:opportunity" />
+        <lightning:button label="label 1"/>
+        <lightning:button label="label 2"/>
+        <lightning:button label="label 3"/>
+        <lightning:button label="label 4"/>
+
+    </lightning:buttonGroup>
+
+</aura:component>

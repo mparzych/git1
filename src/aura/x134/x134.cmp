@@ -1,0 +1,9 @@
+
+<aura:component description="x134" implements="force:appHostable">
+
+    <aura:attribute type="Contact[]" name="contacts1" />
+
+    <lightning:button label="press button" onclick="{!c.showContacts}"/>
+
+
+</aura:component>

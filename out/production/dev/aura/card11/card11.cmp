@@ -1,0 +1,12 @@
+<!--
+ - Created by mparzych004 on 18.10.2019.
+ -->
+
+<aura:component description="card11">
+
+
+    <lightning:card title="title 1"  iconName="standard:opportunity_splits" >
+        <p>abc1</p>
+        <p>abc2</p>
+    </lightning:card>
+</aura:component>

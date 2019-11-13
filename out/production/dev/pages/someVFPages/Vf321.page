@@ -1,0 +1,34 @@
+<!--
+ - Created by mparzych004 on 03.10.2019.
+ -->
+
+<apex:page id="Vf321">
+    <script>
+        function f() {
+            alert('abc');
+        }
+
+        function f2() {
+            document.getElementById('id1').innerHTML= 'bcd';
+        }
+
+        function f5() {
+            document.getElementById('id1').innerHTML = 'xxxxxxxxx';
+        }
+
+        function f3() {
+            document.getElementById('id1').__addEventListener__("click", f5());
+        }
+
+    </script>
+    <p onclick="f()">
+        abc
+    </p>
+
+    <p  id="id1" onmouseout ="f2()">
+        abc2
+    </p>
+
+    <button onclick="f3()">b</button>
+
+</apex:page>

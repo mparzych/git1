@@ -1,0 +1,61 @@
+<!--
+ - Created by mparzych004 on 07.11.2019.
+ -->
+
+<aura:component description="ev1" implements="force:appHostable">
+
+
+    <p class="slds-text-heading_small">{activeSectionMessage}</p>
+
+    <lightning-button onclick={handleSetActiveSectionC} label="Open Section C"></lightning-button>
+
+    <lightning-accordion class="example-accordion"
+                         onsectiontoggle={handleToggleSection}
+                         active-section-name="B">
+        <lightning-accordion-section name="A" label="Accordion Title A">
+            <lightning-button-menu slot="actions"
+                                   alternative-text="Show menu"
+                                   icon-size="x-small"
+                                   menu-alignment="right">
+                <lightning-menu-item value="New" label="Menu Item One"></lightning-menu-item>
+                <lightning-menu-item value="Edit" label="Menu Item Two"></lightning-menu-item>
+            </lightning-button-menu>
+            <p>This is the content area for section A.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>The section height expands to fit your content.</p>
+        </lightning-accordion-section>
+
+        <lightning-accordion-section name="B" label="Accordion Title B">
+            <p>This is the content area for section B.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>The section height expands to fit your content.</p>
+        </lightning-accordion-section>
+
+        <lightning-accordion-section name="C" label="Accordion Title C">
+            <p>This is the content area for section C.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>The section height expands to fit your content.</p>
+        </lightning-accordion-section>
+    </lightning-accordion>
+
+<!--    <aura:attribute name="at1" type="String" default="domyslna wartosc atrybutu"/>-->
+<!--    <p>{!v.at1}</p>-->
+
+<!--    <lightning:button label="label 1" onclick="{!c.ac}"/>-->
+<!--    <lightning:button label="label 2" onclick="{!c.ac2}"/>-->
+<!--    <lightning:button name="buttonName" label="change button label" onclick="{!c.setNewButtonLabel}"/>-->
+<!--    <lightning:input type="toggle"-->
+<!--                     label="Reimbursed?"-->
+<!--                     name="reimbursed"-->
+<!--                     class="slds-p-around&#45;&#45;small"-->
+<!--                     checked="{!v.expense.Reimbursed__c}"-->
+<!--                     messageToggleActive="Yes"-->
+<!--                     messageToggleInactive="No"-->
+<!--                     onchange="{!c.clickReimbursed}"/>-->
+</aura:component>

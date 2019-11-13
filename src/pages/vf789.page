@@ -1,0 +1,13 @@
+<apex:page id="vf789" standardController="Account" recordSetVar="acc">
+
+    <c:vf789c></c:vf789c>
+
+    <apex:form>
+        <apex:pageBlock>
+            <apex:pageBlockSection>
+                <apex:inputField value="{!Account.Name}"/>
+            </apex:pageBlockSection>
+            <apex:commandButton value="button 1" action="{!save}"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

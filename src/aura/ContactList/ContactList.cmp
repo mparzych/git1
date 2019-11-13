@@ -1,0 +1,84 @@
+<aura:component controller="ContactListController">
+
+
+    <aura:attribute type="String" name="at1"/>
+
+    <div aura:id="changeAllButtons">
+    <div id="id1">
+    <lightning:button label="show Contacts" onclick="{!c.doInit}" />
+    <lightning:button label="show Accounts" onclick="{!c.doInit2}" />
+    <lightning:button label="button 3" onclick="{!c.returnString}" />
+    <lightning:button label="return Opportunities" onclick="{!c.retOpp}" />
+    <lightning:button label="return Leads" onclick="{!c.retLeads}" />
+    <lightning:button label="setAt" onclick="{!c.setAt}" />
+<!--    <lightning:button label="button 4" onclick="{!c.changeStyle}" />-->
+    </div>
+
+    </div>
+
+
+    <!--    <aura:handler event="c:SearchKeyChange" action="{!c.searchKeyChange}"/>-->
+
+
+    <div aura:id="changeIt">Change Me!</div><br />
+    <lightning:button onclick="{!c.applyCSS}" label="Add Style" />
+    <lightning:button onclick="{!c.removeCSS}" label="Remove Style 1" />
+    <lightning:button onclick="{!c.removeCSS2}" label="Remove All styles" />
+
+    <lightning:button onclick="{!c.applyCSS2}" label="Add Style 2" />
+    <lightning:button onclick="{!c.applyCSSToAll}" label="applyCSSToAll" />
+
+<!--        <lightning:button label="button2"/>-->
+
+    <aura:attribute name="contacts" type="Contact[]"/>
+    <aura:attribute name="strings" type="String[]"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <aura:attribute name="at2" type="String"/>
+    <p>a: {!v.at1}</p>
+
+    <aura:attribute type="Integer" name="at3"/>
+
+    <ul id="id55">
+        <li>{!v.at3}</li>
+    </ul>
+
+
+    <ul>
+        <aura:iteration var="var2" items="{!v.strings}">
+
+            <p>{!var2}</p>
+            <p>{!var2}</p>
+        </aura:iteration>
+    </ul>
+
+    <ul>
+        <aura:iteration items="{!v.contacts}" var="contact">
+            <li>
+                <a href="{! '#/sObject/' + contact.Id + '/view'}">
+                    <p>{!contact.Name}</p>
+                    <p>{!contact.Phone}</p>
+                </a>
+            </li>
+        </aura:iteration>
+    </ul>
+
+<!--    <ul>-->
+<!--        <aura:iteration items="{!v.strings}" var="st">-->
+<!--            <li>-->
+<!--                123-->
+<!--            </li>-->
+<!--        </aura:iteration>-->
+<!--    </ul>-->
+
+
+    <ul>
+        <li>{!v.strings}</li>
+        <li>{!v.strings[1]}</li>
+        <li>ab021</li>
+        <li>ab031</li>
+    </ul>
+
+
+</aura:component>

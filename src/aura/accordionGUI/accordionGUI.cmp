@@ -1,0 +1,22 @@
+<!--
+ - Created by mparzych004 on 30.10.2019.
+ -->
+
+<aura:component description="accordionGUI">
+    <lightning:accordion title="">
+
+        <lightning:accordionSection title="">
+
+            <p>abc 1</p>
+            <p>abc 2</p>
+            <p>abc 3</p>
+        </lightning:accordionSection>
+        <lightning:accordionSection >
+
+            <p>abc 1</p>
+            <p>abc 1</p>
+        </lightning:accordionSection>
+    </lightning:accordion>
+
+
+</aura:component>

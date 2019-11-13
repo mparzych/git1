@@ -1,0 +1,51 @@
+<!--
+ - Created by mparzych004 on 15.10.2019.
+ -->
+
+<apex:page id="Vf11" standardController="User">
+
+<!--    <c:Vf11c></c:Vf11c>-->
+
+    <c:Vf11c></c:Vf11c>
+
+
+
+    <p>abc {!$User.FirstName} </p>
+    <apex:form>
+
+        <apex:pageBlock>
+
+            <apex:commandButton value="234"/>
+            <apex:commandButton value="234"/>
+
+            <apex:commandButton value="234"/>
+            <apex:commandButton value="234"/>
+
+            <apex:commandButton value="234"/>
+            <apex:commandButton value="234"/>
+
+            <apex:commandButton value="234"/>
+            <apex:commandButton value="234"/>
+
+            <apex:pageBlockButtons>
+                <apex:pageBlockSection>
+
+                    <apex:commandButton value="123"/>
+                    <apex:commandButton value="123"/>
+                    <apex:commandButton value="123"/>
+                    <apex:commandButton value="123"/>
+                    <apex:commandButton value="123"/>
+                </apex:pageBlockSection>
+
+                <!--                <apex:commandButton title="abc" value="przycisk 1"/>-->
+                <!--                <apex:commandButton title="abc2" value="przycisk 1"/>-->
+                <!--                <apex:commandButton title="abc3" value="przycisk 1"/>-->
+                <!--                <apex:commandButton title="abc" value="przycisk1"/>-->
+                <!--                <apex:commandButton title="abc" value="przycisk1"/>-->
+
+
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+
+    </apex:form>
+</apex:page>

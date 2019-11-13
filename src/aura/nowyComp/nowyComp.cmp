@@ -1,0 +1,7 @@
+<!--
+ - Created by mparzych004 on 14.10.2019.
+ -->
+
+<aura:component description="nowyComp" implements="force:appHostable">
+    <c:l1appc></c:l1appc>
+</aura:component>

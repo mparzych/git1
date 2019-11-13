@@ -1,0 +1,45 @@
+<!--
+ - Created by mparzych004 on 02.10.2019.
+ -->
+
+<apex:page id="Vf23" standardController="Account">
+    <script>
+
+        function f() {
+            alert("abc");
+        }
+
+    </script>
+
+    <style>
+    * {
+        background-color: greenyellow;
+    }
+
+        #id1 {
+            background-color: saddlebrown;
+            border: 4px solid blue;
+            font-size: 14px;
+        }
+    </style>
+
+    <apex:form >
+
+        <apex:pageBlock >
+
+            <apex:pageBlockSection >
+
+                <apex:inputField value="{!account.Name}"/>
+                <apex:inputField value="{!account.Name}"/>
+
+
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+
+    <button id="id1" onclick="f()">
+
+        button
+    </button>
+
+</apex:page>

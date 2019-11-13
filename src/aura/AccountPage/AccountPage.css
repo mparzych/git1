@@ -1,0 +1,23 @@
+/**
+ * Created by mparzych004 on 28.10.2019.
+ */
+
+.THIS#id1 {
+    position: absolute;
+    left: 90%;
+    top: 2%;
+
+}
+.THIS#id2 {
+    position: absolute;
+    left: 94%;
+    top: 2%;
+}
+ul.THIS {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.THIS {
+
+}

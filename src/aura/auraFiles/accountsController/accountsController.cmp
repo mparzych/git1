@@ -1,0 +1,12 @@
+<!--
+ - Created by mparzych004 on 07.10.2019.
+ -->
+
+<aura:component description="accountsController" controller="AccountController">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute type="String" name="expenses" />
+    <p>atribute::: {!c.getExpenses}</p>
+
+    <lightning:button onclick="{!c.doInit}" label="button1"/>
+
+</aura:component>

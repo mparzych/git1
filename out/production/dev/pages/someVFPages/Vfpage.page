@@ -1,0 +1,52 @@
+<apex:page standardController="Account">
+    <script>
+    function changeCase(elId){
+        var x = document.getElementById(elId);
+        x.value = x.value.toUpperCase();
+    }
+    var m  = document.getElementById("intro");
+
+    function f() {
+        alert('abc');
+    }
+
+    function f2() {
+        setTimeout(f, 2000);
+
+    }
+
+    function f3() {
+        setInterval(f, 3000);
+    }
+
+    c = 10;
+    function f4() {
+        setInterval(function f5(){alert(++c);}, 3000);
+    }
+
+    function f6() {
+        document.getElementById("zxcsaffsse").innerHTML = "abc!";
+//        document.getElementById('id').innerHTML=
+
+    }
+
+
+</script>
+    <apex:form>
+        <apex:inputField value="{!account.Name}" id="id1" onchange="changeCase('{!$Component.id1}');"/>
+
+        2^10 = {! 2 ^ 10}
+
+<!--        <apex:inputField />-->
+<!--        <apex:inputField />-->
+<!--        <apex:inputField value="abc"/>-->
+        <apex:inputField value="{!account.Name}" onchange="f4()"/>
+        <apex:inputField value="{!account.Name}" id="id3" onChange="f6()" />
+
+
+        <apex:outputField value="{!account.Name}"/>
+
+    </apex:form>
+
+    <button id="zxcsaffsse" onclick="f6()">bbb</button>
+</apex:page>

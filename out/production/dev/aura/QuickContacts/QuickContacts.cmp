@@ -1,0 +1,6 @@
+
+
+<aura:component implements="force:appHostable">
+    <c:ContactList/>
+
+</aura:component>

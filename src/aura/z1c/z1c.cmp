@@ -1,0 +1,10 @@
+<!--
+ - Created by mparzych004 on 08.11.2019.
+ -->
+
+<aura:component description="z1c">
+    <aura:registerEvent name="z1cRegister" type="c:z1"/>
+
+    <lightning:button label="fire a button" onclick="{!c.fireAnEvent}"/>
+
+</aura:component>

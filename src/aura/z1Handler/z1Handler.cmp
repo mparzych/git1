@@ -1,0 +1,7 @@
+<!--
+ - Created by mparzych004 on 08.11.2019.
+ -->
+
+<aura:component description="z1Handler" implements="force:appHostable">
+<!--    <aura:handler name="init" value="{!this}" action="{!c}"-->
+</aura:component>

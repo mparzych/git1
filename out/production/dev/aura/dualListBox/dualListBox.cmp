@@ -1,0 +1,22 @@
+<!--
+ - Created by mparzych004 on 15.10.2019.
+ -->
+
+<aura:component description="dualListBox">
+    <aura:attribute name="options" type="List" default="[
+        { label: 'English', value: 'en' },
+        { label: 'German', value: 'de' },
+        { label: 'Spanish', value: 'es' },
+        { label: 'French', value: 'fr' },
+        { label: 'Italian', value: 'it' },
+        { label: 'Japanese', value: 'ja' }]"/>
+
+    <lightning:dualListbox name="languages"
+                           label= "Select Languages"
+                           sourceLabel="Available"
+                           selectedLabel="Selected"
+                           fieldLevelHelp="Select your preferred languages"
+                           options="{!v.options}"
+                           onchange="{! c.handleChange }"/>
+
+</aura:component>

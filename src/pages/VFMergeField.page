@@ -1,0 +1,6 @@
+
+<apex:page id="VFMergeField" standardController="Contact">
+    <apex:form>
+        <apex:inputField value="{!Contact.Account.Owner.FirstName}"/>
+    </apex:form>
+</apex:page>

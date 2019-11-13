@@ -1,0 +1,14 @@
+<!--
+ - Created by mparzych004 on 30.10.2019.
+ -->
+
+<aura:component description="buttonMenu" controller="ExecuteQueueable">
+    <aura:attribute name="at1" type="String" />
+    <lightning:buttonMenu iconName="">
+
+        <lightning:buttonIcon iconName="utility:settings" variant="bare" onclick="{!c.executeQ}" alternativeText="Settings" />
+        <lightning:buttonIcon iconName="utility:down"  size="large" onclick="{!c.executeQ}" variant="bare" alternativeText="View More" />
+
+
+    </lightning:buttonMenu>
+</aura:component>

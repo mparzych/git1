@@ -1,0 +1,4 @@
+
+<aura:component description="Comp4" implements="force:appHostable">
+    <p>abc</p>
+</aura:component>

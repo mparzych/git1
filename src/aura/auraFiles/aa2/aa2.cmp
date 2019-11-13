@@ -1,0 +1,122 @@
+
+
+<aura:component description="aa2" controller="ContactController" implements="force:appHostable">
+    <aura:attribute type="Boolean" name="at1"/>
+    <p>abc : {!v.at1}</p>
+    <lightning:button onclick="{!c.buttonTrueAct}" label="buttonTrue" />
+    <lightning:button onclick="{!c.buttonFalseAct}" label="buttonFalse" />
+
+
+
+    <lightning:button label="button lightning2" />
+    <button>html button</button>
+    <lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
+
+
+
+    <lightning:buttonMenu>
+        <lightning:menuItem prefixIconName="utility:user" label="Menu item"/>
+        <lightning:menuItem label="Another menu item"/>
+    </lightning:buttonMenu>
+
+
+    <aura:if isTrue="{!v.at1}">
+<!--        <aura:set attribute="{!v.at1}"-->
+        <br/>
+
+        <button>button html</button>
+        <lightning:button label="button lightning" />
+        <p>{!v.at1}</p>
+    </aura:if>
+
+    <aura:attribute type="Boolean" name="chartBool" />
+
+    <button id="id22" onclick="{!c.showChart}">pokaz wykres</button>
+
+    <div id="id3">
+    <aura:if isTrue="{!v.chartBool}">
+
+        <br/>
+        <aura:iteration items="1,2,3,4,5" var="item">
+            <meter value="{!item / 5}"/><br/>
+        </aura:iteration>
+    </aura:if>
+    </div>
+
+    <aura:attribute name="status" type="String[]" default="Open, Closed, Closed Won, Any"/>
+    <ui:menu>
+        <ui:menuTriggerLink aura:id="trigger" label="Opportunity Status"/>
+        <ui:menuList class="actionMenu" aura:id="actionMenu">
+            <aura:iteration items="{!v.status}" var="s">
+                <ui:actionMenuItem label="{!s}" click="{!c.doSomething}"/>
+            </aura:iteration>
+        </ui:menuList>
+
+    </ui:menu>
+
+        <br/>
+
+
+<!--    <aura:attribute name="options" type="List" default="[-->
+<!--    {'label': 'Ross', 'value': 'option1'},-->
+<!--    {'label': 'Rachel', 'value': 'option2'}-->
+<!--    ]"/>-->
+<!--    <aura:attribute name="value" type="List" default="option1"/>-->
+
+<!--    <lightning:checkboxGroup name="Checkbox Group"-->
+<!--                             label="Checkbox Group"-->
+<!--                             options="{! v.options }"-->
+<!--                             value="{! v.value }"-->
+<!--                             onchange="{! c.handleChange }"/>-->
+
+
+
+
+
+
+    <!--    <lightning:accordion activeSectionName="B">-->
+<!--        <lightning:accordionSection name="A" label="Accordion Title A">This is the content area for section A</lightning:accordionSection>-->
+<!--        <lightning:accordionSection name="B" label="Accordion Title B">This is the content area for section B</lightning:accordionSection>-->
+<!--        <lightning:accordionSection name="C" label="Accordion Title C">This is the content area for section C</lightning:accordionSection>-->
+<!--    </lightning:accordion>-->
+
+
+    <lightning:button label="New Record" name="new" onclick="{!c.handleClick}"/>
+    <lightning:button label="Edit" name="edit" onclick="{!c.handleClick}"/>
+    <lightning:button label="Delete" name="delete" onclick="{!c.handleClick}"/>
+
+
+<!--    <ui:inputNumber label="PickaNumber:" value="54"/>-->
+
+<!--    <ui:inputNumber label="xcv" value="33"/>-->
+
+
+<!--    <lightning:button name="xxx" label="xxx2" >aaa</lightning:button>-->
+
+
+<!--    <aura:attribute name="options" type="List" default="[-->
+<!--    {'label': 'New', 'value': 'new'},-->
+<!--    {'label': 'In Progress', 'value': 'inProgress'},-->
+<!--    {'label': 'Finished', 'value': 'finished'},-->
+<!--    ]"/>-->
+
+<!--    <lightning:combobox name="progress" label="Status" value="inProgress" placeholder="Select Progress" options="{! v.options }" onchange="{! c.handleChange }"/>-->
+
+    <ui:menu>
+        <ui:menuTriggerLink aura:id="trigger" label="Opportunity Status"/>
+        <ui:menuList class="actionMenu" aura:id="actionMenu">
+            <ui:actionMenuItem aura:id="item2" label="Open" click="{!c.updateTriggerLabel}"/>
+            <ui:actionMenuItem aura:id="item3" label="Closed" click="{!c.updateTriggerLabel}"/>
+            <ui:actionMenuItem aura:id="item4" label="Closed Won" click="{!c.updateTriggerLabel}"/>
+        </ui:menuList>
+    </ui:menu>
+
+
+    <p>abc {!$Browser.formFactor} </p>
+
+    <c:comp3></c:comp3>
+
+
+
+
+</aura:component>

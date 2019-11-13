@@ -1,0 +1,9 @@
+<!--
+ - Created by mparzych004 on 07.11.2019.
+ -->
+
+<aura:component description="subComponent" extends="c:superComponent" implements="force:appHostable">
+
+    <p>{!v.superAttribute1}</p>
+
+</aura:component>

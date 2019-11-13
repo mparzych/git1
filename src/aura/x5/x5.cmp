@@ -1,0 +1,61 @@
+
+
+<aura:component description="x5" implements="force:appHostable" controller="Strings">
+
+<!--    <c:contactList2></c:contactList2>-->
+<!--    <aura:registerEvent name="any event name" type="c: Event created name"/>-->
+
+
+
+
+
+    <c:card12></c:card12>
+    <div style="background-color:#16325c;padding:0.5rem">
+        <button class="slds-button slds-button_inverse">Inverse Button</button>
+    </div>
+
+    <aura:attribute name="stringP" type="String" default="abcd"/>
+
+    <lightning:input type="color" label="F color"/>
+
+    <lightning:progressBar value="150" size="large" />
+
+
+    <p id="pId" onclick="{!c.setString}">abc: {!v.stringP}</p>
+
+
+    <aura:attribute name="options" type="List" default="[
+    {'label': 'New', 'value': 'new'},
+    {'label': 'In Progress', 'value': 'inProgress'},
+    {'label': 'Finished', 'value': 'finished'},
+    ]"/>
+
+    <lightning:combobox name="progress" label="Status" value="inProgress" placeholder="Select Progress" options="{! v.options }" onchange="{! c.handleChange }"/>
+
+
+    <br/>
+    <br/>
+    <br/>
+
+
+    <c:card11></c:card11>
+
+    <br/>
+
+    <lightning:accordion  activeSectionName="t1">
+        <lightning:accordionSection    label="Accordion1">abc</lightning:accordionSection>
+        <lightning:accordionSection name="t1" title="t1" label="Accordion2">abc2</lightning:accordionSection>
+    </lightning:accordion>
+
+    <br/>
+    <br/>
+    <br/>
+
+    <c:mapComponent></c:mapComponent>
+<!--    <c:dateInput></c:dateInput>-->
+
+
+
+
+
+</aura:component>

@@ -1,0 +1,57 @@
+
+
+<apex:page id="Vf444" standardController="Account" >
+
+    <p>abc</p>
+
+
+    <apex:form>
+        <apex:pageBlock title="t1">
+
+            <apex:pageBlockTable value="{!Account.Contacts}" var="v1">
+
+                <apex:column value="{!v1.Name}"/>
+                <apex:column value="{!v1.Email}"/>
+                <apex:column value="{!v1.Birthdate}"/>
+                <apex:column value="{!v1.Phone}"/>
+                <apex:inputField value="{!Account.Phone}"/>
+
+            </apex:pageBlockTable>
+
+
+            <apex:inputField value="{!Account.Name}"  />
+            <apex:inputField value="{!Account.Name}" />
+
+
+            <apex:pageBlockButtons title="t1">
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection >
+                <apex:commandButton value="Save button"  action="{!save}"/>
+
+            </apex:pageBlockSection>
+
+
+        </apex:pageBlock>
+
+
+
+
+    </apex:form>
+
+<!--    <apex:enhancedList type="Account" height="300" rowsPerPage="10" id="AccountList" />-->
+<!--    <apex:enhancedList type="Lead" height="300" rowsPerPage="25"-->
+<!--                       id="LeadList" customizable="False" />-->
+
+
+<!--    <apex:detail relatedList="false" showChatter="true"/>-->
+
+
+    <apex:outputField value="{! Account.Name }"/>
+    <apex:outputField value="{! Account.Phone }"/>
+    <apex:outputField value="{! Account.Industry }"/>
+    <apex:outputField value="{! Account.AnnualRevenue }"/>
+
+
+
+</apex:page>

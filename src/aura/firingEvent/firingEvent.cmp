@@ -1,0 +1,12 @@
+<!--
+ - Created by mparzych004 on 07.11.2019.
+ -->
+
+<aura:component description="firingEvent" implements="force:appHostable" >
+
+<!--    <c:MyNotifier/>-->
+<!--    <c:MyHandler/>-->
+    <p>abc</p>
+    <c:komponentDoEventu/>
+</aura:component>
+

@@ -1,0 +1,16 @@
+<!--
+ - Created by mparzych004 on 07.10.2019.
+ -->
+
+<aura:component description="buttonMenu">
+
+    <c:dataTable></c:dataTable>
+    <div id="id1">
+        <lightning:buttonMenu aura:id="menu" iconName="utility:settings" alternativeText="Show menu" onselect="{! c.handleSelect }">
+            <lightning:menuItem label="Menu Item One" value="MenuItemOne" />
+            <lightning:menuItem label="Menu Item Two" value="MenuItemTwo" />
+            <lightning:menuItem label="Menu Item Three" value="MenuItemThree" disabled="true" />
+            <lightning:menuItem label="Menu Item Four" value="MenuItemFour" />
+        </lightning:buttonMenu>
+    </div>
+</aura:component>

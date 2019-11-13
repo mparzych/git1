@@ -1,0 +1,13 @@
+<!--
+ - Created by mparzych004 on 27.09.2019.
+ -->
+
+<apex:component id="Vcb">
+    abc
+    <style>
+
+        * {
+            background-color: red;
+        }
+    </style>
+</apex:component>

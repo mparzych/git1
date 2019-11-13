@@ -1,0 +1,81 @@
+<apex:page id="VF" standardController="Account">
+    <style>
+
+/*
+
+            #id1 {
+                font-size: 44px;
+            }
+            .id2  {
+                color: brown;
+            } */
+            #id33 {
+                color: green;
+                background-color: yellow;
+            }
+
+
+
+
+    </style>
+
+
+    <!--    <apex:form >-->
+
+    <!--        <apex:pageBlock title="abc" id="id1">-->
+
+    <!--            <apex:pageBlockSection >-->
+
+    <!--                <apex:inputField id="id2" value="{!Account.Name}"/>-->
+
+
+    <!--                <apex:inputField value="{!Account.YearStarted}"/>-->
+    <!--                <apex:inputField value="{!Account.Active__c}"/>-->
+
+
+    <!--            </apex:pageBlockSection>-->
+    <!--        </apex:pageBlock>-->
+    <!--    </apex:form>-->
+
+
+    <apex:form>
+
+        <apex:pageBlock>
+
+            <apex:pageBlockButtons>
+
+<!--                <apex:commandButton value="przycisk 1"/>-->
+<!--                <apex:commandButton value="przycisk 2"/>-->
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection>
+            <apex:commandButton value="przycisk 3"/>
+            <apex:commandButton value="przycisk 4"/>
+            <apex:commandButton value="przycisk 5"/>
+            <apex:commandButton value="przycisk 6"/>
+            </apex:pageBlockSection>
+
+        </apex:pageBlock>
+
+    </apex:form>
+
+
+
+    <apex:form>
+
+        <apex:pageBlock>
+
+            <apex:pageBlockTable value="{!account.Contacts}" var="item">
+
+                <apex:column value="{!item.name}"/>
+                <apex:column value="{!item.name}"/>
+
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+
+    <p>ppp</p>
+    <div id="id33">div</div>
+
+
+</apex:page>
+

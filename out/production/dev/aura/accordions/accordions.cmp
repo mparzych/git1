@@ -1,0 +1,22 @@
+<!--
+ - Created by mparzych004 on 15.10.2019.
+ -->
+
+<aura:component description="accordions">
+
+    <lightning:accordion activeSectionName="B">
+        <lightning:accordionSection name="A" label="Accordion Title A">This is the content area for section A
+        </lightning:accordionSection>
+        <lightning:accordionSection name="B" label="Accordion Title B">This is the content area for section B
+        </lightning:accordionSection>
+        <lightning:accordionSection name="C" label="Accordion Title C">This is the content area for section C
+        </lightning:accordionSection>
+    </lightning:accordion>
+
+    <lightning:accordion title="accordion title" activeSectionName="B">
+
+        <lightning:accordionSection name="A" label="Accordion Title 1">Content 1</lightning:accordionSection>
+        <lightning:accordionSection name="B" label="Accordion Title 2">Content 2</lightning:accordionSection>
+
+    </lightning:accordion>
+</aura:component>

@@ -1,0 +1,15 @@
+<!--
+ - Created by mparzych004 on 25.10.2019.
+ -->
+
+<apex:page id="vf89second" standardController="Account">
+<!--    <apex:detail subject="{!Account.ownerId}" relatedList="false"/>-->
+
+    <p>abc1</p>
+
+        <apex:tabPanel switchType="client" selectedTab="name2" id="theTabPanel">
+            <apex:tab label="One" name="name1" id="tabOne">content for tab one</apex:tab>
+            <apex:tab label="Two" name="name2" id="tabTwo">content for tab two</apex:tab>
+        </apex:tabPanel>
+</apex:page>
+

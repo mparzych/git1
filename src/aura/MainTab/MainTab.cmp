@@ -1,0 +1,71 @@
+<!--
+ - Created by mparzych004 on 25.10.2019.
+ -->
+
+<aura:component description="MainTab" implements="force:appHostable" controller="GetContacts">
+
+    <aura:attribute type="Contact[]" name="contacts1"/>
+
+    <aura:attribute type="Boolean" name="bool1"/>
+
+
+    <aura:registerEvent type="c:event2" name="xxx"/>
+
+<!--    <aura:if isTrue="{!c.booleanValue}">-->
+<!--    <p>event 111</p>-->
+<!--    </aura:if>-->
+
+    <lightning:button label="press button" onclick="{!c.showContacts}" name="button1"/>
+
+    <lightning:button label="set text" onclick="{!c.eventFunc}"/>
+
+<!--    <aura:if isTrue="{!v.bool1}">-->
+
+<!--    </aura:if>-->
+
+    <lightning:button label="press button 2" onclick="{!c.logFunction}"/>
+
+    <aura:attribute type="String" name="randomText" default="abcd efgh"/>
+    <p>{!v.randomText}</p>
+    <p>abc2: </p>
+
+    <!--    <ul>-->
+    <!--        <aura:iteration items="{!v.contacts1}" var="contact">-->
+    <!--            <li>-->
+    <!--                &lt;!&ndash;                    <a href="{! '#/sObject/' + contact.Id + '/view'}">&ndash;&gt;-->
+    <!--                <a style="color:red" onmouseover="this.style='font-size:222px'" id="id45"-->
+    <!--                   href="{!'https://www.google.com/search?q=' + contact.Name}">-->
+    <!--                    <p>Name: {!contact.Name}, Email: {!contact.Email}</p>-->
+    <!--                    <p>{!contact.Phone}</p>-->
+    <!--                </a>-->
+    <!--            </li>-->
+    <!--        </aura:iteration>-->
+    <!--    </ul>-->
+
+<!--    <ul>-->
+<!--        <aura:iteration items="{!v.contacts1}" var="val1">-->
+<!--            <li>-->
+<!--                <a href="{!'https://www.google.com/search?q=' + val1.Name}">-->
+<!--                    <p>Name: {!val1.Name}</p>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            -->
+<!--        </aura:iteration>-->
+<!--    </ul>-->
+    <div id="divToHide">
+        <ul>
+            <aura:iteration items="{!v.contacts1}" var="contact">
+                <li>
+                    <!--                    <a href="{! '#/sObject/' + contact.Id + '/view'}">-->
+                    <a style="color:red" onmouseover="this.style='font-size:222px'" id="id45"
+                       href="{!'https://www.google.com/search?q=' + contact.Name}">
+                        <p>Name: {!contact.Name}, Email: {!contact.Email}</p>
+                        <p>{!contact.Phone}</p>
+                    </a>
+                </li>
+            </aura:iteration>
+        </ul>
+    </div>
+
+
+</aura:component>

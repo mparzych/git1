@@ -1,0 +1,7 @@
+
+<aura:event type="APPLICATION" description="event3">
+
+    <aura:attribute type="String" name="atrybutWEvencie"  default="Zmienna z eventu"/>
+
+
+</aura:event>

@@ -1,0 +1,49 @@
+<!--
+ - Created by mparzych004 on 08.10.2019.
+ -->
+<apex:page standardController="Contact" >
+
+    <style type="text/css">
+
+        * {
+            font-size: 13px;
+            color: green;
+        }
+
+
+
+
+        #id3{
+            position: absolute;
+            left: 10%;
+            border: none;
+            height: 60px;
+            background-color: #eec;
+        }
+
+
+
+
+    </style>
+
+
+
+    <apex:form style="font-size:222px;">
+
+        <apex:pageBlock title="Edit Contact">
+            <apex:pageBlockSection columns="1">
+                <apex:inputField value="{!Contact.FirstName}"/>
+                <apex:inputField value="{!Contact.LastName}"/>
+                <apex:inputField value="{!Contact.Email}"/>
+                <apex:inputField value="{!Contact.Birthdate}"/>
+
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!save}" value="Save"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+
+
+    </apex:form>
+
+</apex:page>

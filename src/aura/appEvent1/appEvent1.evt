@@ -1,0 +1,6 @@
+<!--
+ - Created by mparzych004 on 25.10.2019.
+ -->
+
+<aura:event type="APPLICATION" description="appEvent1">
+</aura:event>

@@ -1,0 +1,19 @@
+/**
+ * Created by mparzych004 on 07.10.2019.
+ */
+
+.THIS {
+
+}
+.THIS.cl1 {
+    background-color: green;
+    font-size: 22px;
+}
+.THIS#id1:hover {
+    font-size: 29px;
+    background-color: blue;
+}
+p.THIS:hover {
+    font-size: 44px;
+    background-color: blue;
+}
