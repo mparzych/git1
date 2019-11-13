@@ -18,4 +18,5 @@
 
     <lightning:listView objectApiName="Account" listName="AllAccounts" rows="15"/>
 
+
 </aura:component>
