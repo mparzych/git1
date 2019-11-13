@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91faabdd-a6ed-4a0a-8671-e1a18d8c3b8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/lc1/lc1.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/lc1/lc1.cmp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -397,7 +398,7 @@
                       <entry key="AURADEFINITIONBUNDLE:L33" value="1571035396275" />
                       <entry key="AURADEFINITIONBUNDLE:L33C" value="1570777718253" />
                       <entry key="AURADEFINITIONBUNDLE:LAYOUT1" value="1573039360747" />
-                      <entry key="AURADEFINITIONBUNDLE:LC1" value="1573564080599" />
+                      <entry key="AURADEFINITIONBUNDLE:LC1" value="1573631269391" />
                       <entry key="AURADEFINITIONBUNDLE:LI2" value="1570012466513" />
                       <entry key="AURADEFINITIONBUNDLE:LI2C" value="1570011899376" />
                       <entry key="AURADEFINITIONBUNDLE:LIGHT22" value="1570523107085" />
@@ -1590,6 +1591,21 @@
       <option name="presentableId" value="Default" />
       <updated>1569571338026</updated>
     </task>
+    <task id="LOCAL-00001" summary="com1">
+      <created>1573631236685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573631236686</updated>
+    </task>
+    <task id="LOCAL-00002" summary="com1">
+      <created>1573631279248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573631279248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1602,6 +1618,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="com1" />
+    <option name="LAST_COMMIT_MESSAGE" value="com1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dev$TriggTest1_abc.null" NAME="dev Coverage Results" MODIFIED="1573047522689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="dev" CONNECTION_NAME="dev" CONNECTION_TYPE="MDAPI" />
